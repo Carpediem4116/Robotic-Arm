@@ -1,6 +1,6 @@
-# D-H参数
+# D-H Parameters
 
-| 关节 | $a_i$ ：连杆长度 |$\alpha_i$：扭转角 | $d_i$：偏距 | $\theta_i$：初始角偏置 | 关节范围 |
+| Joint | $a_i$: Link length | $\alpha_i$: Twist angle | $d_i$: Offset | $\theta_i$: Initial joint offset | Joint range |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | 0 | 0° | 0 | 90° | 0～360° |
 | 2 | 0 | 90° | 0 | 90° | −90～90° |
