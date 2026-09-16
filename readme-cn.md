@@ -9,9 +9,9 @@ date: 2026-09-12
 
 **简体中文** | [English](readme-en.md)
 
-机械臂项目工作区，包含机械模型与打印资源、STM32F103 固件工程、D-H 与 URDF 资料，以及 LaTeX 项目报告。
+机械臂项目工作区，包含机械模型与打印资源、STM32F103 固件工程、D-H 与 URDF 资料。
 
-最后更新：2026-09-12
+最后更新：2026-09-13
 
 ## 项目目录 / Project Structure
 
@@ -21,7 +21,6 @@ date: 2026-09-12
 | `2. Software/` | STM32CubeIDE 固件工程，含 HAL 与 FreeRTOS | [robot_f103.ioc](<2. Software/robot_f103.ioc>)、[main.c](<2. Software/Core/Src/main.c>)、[freertos.c](<2. Software/Core/Src/freertos.c>) |
 | `3. Simulink/` | MATLAB 初始化脚本、D-H 表和 URDF 资源 | [robot_run.m](<3. Simulink/robot_run.m>)、[D-H.md](<3. Simulink/D-H.md>) |
 | `3. Simulink/UDRT/` | ROS 2 机器人描述包，包名为 `zero_arm_description` | [URDF](<3. Simulink/UDRT/urdf/zero_arm_description.urdf>)、[显示启动文件](<3. Simulink/UDRT/launch/display.launch.py>)、[package.xml](<3. Simulink/UDRT/package.xml>) |
-| `Latex Report/` | LaTeX 报告源文件、参考文献与现有 PDF | [main.tex](<Latex Report/main.tex>)、[reference.bib](<Latex Report/reference.bib>)、[main.pdf](<Latex Report/main.pdf>) |
 | `AGENTS.md` | 统一的项目协作、验证与 README 同步规则，也是 Codex 项目指令入口 | [阅读规则](AGENTS.md) |
 
 ## 使用入口 / Getting Started
@@ -44,17 +43,12 @@ date: 2026-09-12
 
 `UDRT/` 是 ROS 2 描述包。其 `package.xml` 声明 `ament_cmake`、`robot_state_publisher`、`joint_state_publisher_gui`、`rviz2` 等依赖；`display.launch.py` 提供机器人状态发布、关节滑块界面和 RViz 显示入口。使用前需准备相应 ROS 2 环境并构建该包。
 
-### 项目报告 / Project Report
-
-从 `Latex Report/main.tex` 编辑报告，参考文献放在 `reference.bib`。目录中已有 `main.pdf`，本次未重新编译，也未核对它是否对应当前源文件。
-
 ## 当前状态与待办 / Status and Next Steps
 
 - **已核对：** 目录结构、主要入口、F103 工程配置、默认任务及 MATLAB 脚本内容。
 - **待补齐：** 安装教程引用的 `4. Other/Images/` 在本工程内不存在，教程插图目前缺失。
 - **待补齐：** 若要进行 Simulink 仿真，需补充实际模型和对应运行入口。
-- **待验证：** 固件构建与硬件运行、ROS 2 构建与显示、运动学参数、LaTeX 编译；本次仅进行文档与静态文件检查。
-- **版本管理：** 当前 [.gitignore](.gitignore) 忽略整个 `Latex Report/`，报告文件的本地修改不会自动进入该仓库的版本记录。
+- **待验证：** 固件构建与硬件运行、ROS 2 构建与显示、运动学参数。
 
 ## README 维护规则 / README Maintenance
 
@@ -68,5 +62,6 @@ date: 2026-09-12
 
 | 日期 | 涉及文件 | 变更内容 | 验证结果 |
 | --- | --- | --- | --- |
+| 2026-09-13 | `readme-cn.md`、`readme-en.md` | 按用户要求精简两版项目说明，保持目录入口与验证状态对应。 | 已核对两版内容、日期、语言切换与本地链接。 |
 | 2026-09-12 | `readme-en.md`、`readme.md`、`AGENTS.md` | 添加完整英文 README 和中英文切换链接；将每次修改后的 README 同步规则扩展为中英文两版。 | 已核对两版章节、项目信息与变更记录，检查文档本地链接。仅修改文档，未执行构建、仿真或硬件测试。 |
-| 2026-09-12 | `AGENTS.md`、`readme.md` | 新增项目说明；将两份 Agent 文档合并为单一 `AGENTS.md` 并移除 `Agent.md`；保留每次修改后同步 README 的完整规则；记录当前工程入口与待验证状态。 | 已静态核对项目文件，检查合并后的规则与本地链接。未执行构建、仿真、报告编译或硬件测试。 |
+| 2026-09-12 | `AGENTS.md`、`readme.md` | 新增项目说明；将两份 Agent 文档合并为单一 `AGENTS.md` 并移除 `Agent.md`；保留每次修改后同步 README 的完整规则；记录当前工程入口与待验证状态。 | 已静态核对项目文件，检查合并后的规则与本地链接。未执行构建、仿真或硬件测试。 |
