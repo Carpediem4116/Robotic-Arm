@@ -1,0 +1,210 @@
+{
+ "Board_step_STEP__Open_CASCADE_STEP_translator_6_8_4_1_1_step_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\Open CASCADE STEP translator 6.8 4.1.1.step.STEP.SLDPRT"
+ },
+ "Enter_step_STEP__ts_1145a_b_a_White_step_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\ts-1145a-b-a_White.step.STEP.SLDPRT"
+ },
+ "J1_step_STEP__c_6308926832_step_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\6308926832.step.STEP.SLDASM"
+ },
+ "J1_step_STEP__c_6308926992_step_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\6308926992.step.STEP.SLDASM"
+ },
+ "J3_step_STEP__XH2_54_8P_H_step_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\XH2.54-8P_H.step.STEP.SLDASM"
+ },
+ "J6_step_STEP__User_Library_XH2_54_4P_AW_step_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\User_Library-XH2_54-4P-AW.step.STEP.SLDPRT"
+ },
+ "M3_05_1.3dxml": {
+  "config": "默认",
+  "source": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\1. Model\\同步轮M3-05.SLDPRT"
+ },
+ "M3_06_1.3dxml": {
+  "config": "默认",
+  "source": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\1. Model\\同步轮M3-06.SLDPRT"
+ },
+ "M3_08_1.3dxml": {
+  "config": "默认",
+  "source": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\1. Model\\同步轮M3-08.SLDPRT"
+ },
+ "XH2_54_8P_H_step_STEP__XH2_54_8P_H_0_step_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\XH2.54-8P_H-0.step.STEP.SLDPRT"
+ },
+ "ZDT_X35_L28Motor_1.3dxml": {
+  "config": "默认",
+  "source": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\1. Model\\ZDT_X35_L28Motor.SLDASM"
+ },
+ "ZDT_X35_L28Motor_STEP__M3x6mm_Phillips_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\M3x6mm_Phillips.STEP.SLDPRT"
+ },
+ "ZDT_X35_L28Motor_STEP__SHIM_3x7x3_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\SHIM_3x7x3.STEP.SLDPRT"
+ },
+ "ZDT_X35_L28Motor_STEP__WIRE_2_54_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\WIRE_2.54.STEP.SLDPRT"
+ },
+ "ZDT_X35_L28Motor_STEP__ZDT_X35_V1_2_PCB_step_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\ZDT_X35_V1.2_PCB.step.STEP.SLDASM"
+ },
+ "ZDT_X35_L28Motor_STEP__ZDT_X35_V1_2_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\ZDT_X35_V1.2.STEP.SLDPRT"
+ },
+ "ZDT_X35_L28Motor_STEP__c_35_STEPPER_MOTOR_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\35_STEPPER_MOTOR.STEP.SLDPRT"
+ },
+ "ZDT_X35_L28Motor__ZDT_X35_L28Motor_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\ZDT_X35_L28Motor.STEP.SLDASM"
+ },
+ "ZDT_X35_V1_2_PCB_step_STEP__Board_step_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\Board.step.STEP.SLDASM"
+ },
+ "ZDT_X35_V1_2_PCB_step_STEP__Enter_step_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\Enter.step.STEP.SLDASM"
+ },
+ "ZDT_X35_V1_2_PCB_step_STEP__J1_step_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\J1.step.STEP.SLDASM"
+ },
+ "ZDT_X35_V1_2_PCB_step_STEP__J3_step_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\J3.step.STEP.SLDASM"
+ },
+ "ZDT_X35_V1_2_PCB_step_STEP__J6_step_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\J6.step.STEP.SLDASM"
+ },
+ "ZDT_X35_V1_2_PCB_step_STEP__Next_step_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\Next.step.STEP.SLDASM"
+ },
+ "ZDT_X42_L40Motor_1.3dxml": {
+  "config": "默认",
+  "source": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\1. Model\\ZDT_X42_L40Motor.SLDASM"
+ },
+ "ZDT_X42_L40Motor_STEP__ZDT_X42_V1_2_PCB_step_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\ZDT_X42_V1.2_PCB.step.STEP.SLDASM"
+ },
+ "ZDT_X42_L40Motor_STEP__ZDT_X42_V1_2_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\ZDT_X42_V1.2.STEP.SLDPRT"
+ },
+ "ZDT_X42_L40Motor_STEP__c_42_STEPPER_MOTOR_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\42_STEPPER_MOTOR.STEP.SLDPRT"
+ },
+ "ZDT_X42_L40Motor__ZDT_X42_L40Motor_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\ZDT_X42_L40Motor.STEP.SLDASM"
+ },
+ "c_0_8mm_1.3dxml": {
+  "config": "默认",
+  "source": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\1. Model\\限位开关_按下_0.8mm.SLDPRT"
+ },
+ "c_1.3dxml": {
+  "config": "默认",
+  "source": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\1. Model\\热熔螺母.SLDPRT"
+ },
+ "c_1_2.3dxml": {
+  "config": "默认",
+  "source": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\1. Model\\手机夹具.SLDPRT"
+ },
+ "c_1_3.3dxml": {
+  "config": "默认",
+  "source": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\1. Model\\底座固定爪.SLDPRT"
+ },
+ "c_2_2.3dxml": {
+  "config": "默认",
+  "source": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\1. Model\\限位开关_按下_长柄.SLDPRT"
+ },
+ "c_35_38_1.3dxml": {
+  "config": "默认",
+  "source": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\1. Model\\单轴行星减速器35-38.SLDPRT"
+ },
+ "c_36_38_2.3dxml": {
+  "config": "默认",
+  "source": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\1. Model\\双轴行星减速器36-38.SLDPRT"
+ },
+ "c_36_47_1.3dxml": {
+  "config": "默认",
+  "source": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\1. Model\\双轴行星减速器36-47.SLDPRT"
+ },
+ "c_42XG_2.3dxml": {
+  "config": "默认",
+  "source": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\1. Model\\42XG二级减速.SLDASM"
+ },
+ "c_42XG_STEP__c_42XG_____STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\42XG____.STEP.SLDPRT"
+ },
+ "c_42XG_STEP__c_42XG_______0_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\42XG______-0.STEP.SLDPRT"
+ },
+ "c_42XG_STEP__c_42XG_______STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\42XG______.STEP.SLDPRT"
+ },
+ "c_42XG__c_42XG_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\42XG二级减速.STEP.SLDASM"
+ },
+ "c_6308926832_step_STEP__Extruded_1_step_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\Extruded-1.step.STEP.SLDPRT"
+ },
+ "c_6308926992_step_STEP__Extruded_step_STEP_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\IC~~\\Extruded.step.STEP.SLDPRT"
+ },
+ "c_8mm__1.3dxml": {
+  "config": "默认",
+  "source": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\1. Model\\轴直径8mm_抱紧式联轴器(客户图）.SLDPRT"
+ },
+ "frame0_ZERO_ARM_1.3dxml": {
+  "config": "默认",
+  "source": "C:\\Users\\SH\\AppData\\Local\\Temp\\swx38624\\VC~~\\ZERO_ARM\\frame0^ZERO_ARM.SLDPRT"
+ },
+ "frame1_1.3dxml": {
+  "config": "默认",
+  "source": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\1. Model\\frame1.SLDPRT"
+ },
+ "frame2_2.3dxml": {
+  "config": "默认",
+  "source": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\1. Model\\frame2.SLDPRT"
+ },
+ "frame3_1.3dxml": {
+  "config": "默认",
+  "source": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\1. Model\\frame3.SLDPRT"
+ },
+ "frame4_1.3dxml": {
+  "config": "默认",
+  "source": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\1. Model\\frame4.SLDPRT"
+ },
+ "frame5_1.3dxml": {
+  "config": "默认",
+  "source": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\1. Model\\frame5.SLDPRT"
+ },
+ "tapered_roller_bearings_gb_2.3dxml": {
+  "config": "Rolling bearings 32904 GB 297-94",
+  "source": "D:\\Program Files\\SOLIDWORKS Data2026\\browser\\GB\\bearing\\rolling bearings\\tapered roller bearings gb.sldprt"
+ }
+}

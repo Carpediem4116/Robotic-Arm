@@ -1,0 +1,1387 @@
+<?xml version="1.0"?>
+<robot name="ZERO_ARM">
+  <link name="c_42XG_2">
+    <!-- sw2robot inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_42XG_2.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_42XG_2.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="3.908314888e-06 -1.871213469e-08 0.01459211476" rpy="0 0 0"/>
+      <mass value="0.073822"/>
+      <inertia ixx="2.72661e-05" ixy="-6.63345e-12" ixz="-1.07745e-08" iyy="2.72674e-05" iyz="4.08494e-11" izz="1.67933e-05"/>
+    </inertial>
+  </link>
+  <link name="ZDT_X35_L28Motor_1">
+    <!-- sw2robot inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/ZDT_X35_L28Motor_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/ZDT_X35_L28Motor_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.002229506993 -0.003622863497 0.05920233111" rpy="0 0 0"/>
+      <mass value="0.0413492"/>
+      <inertia ixx="9.34744e-06" ixy="4.09794e-08" ixz="1.68409e-07" iyy="8.97647e-06" iyz="3.87745e-07" izz="8.83384e-06"/>
+    </inertial>
+  </link>
+  <link name="ZDT_X35_L28Motor_2">
+    <!-- sw2robot inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/ZDT_X35_L28Motor_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/ZDT_X35_L28Motor_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.002229506993 -0.003622863497 0.05920233111" rpy="0 0 0"/>
+      <mass value="0.0413492"/>
+      <inertia ixx="9.34744e-06" ixy="4.09794e-08" ixz="1.68409e-07" iyy="8.97647e-06" iyz="3.87745e-07" izz="8.83384e-06"/>
+    </inertial>
+  </link>
+  <link name="ZDT_X35_L28Motor_3">
+    <!-- sw2robot inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/ZDT_X35_L28Motor_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/ZDT_X35_L28Motor_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.002229506993 -0.003622863497 0.05920233111" rpy="0 0 0"/>
+      <mass value="0.0413492"/>
+      <inertia ixx="9.34744e-06" ixy="4.09794e-08" ixz="1.68409e-07" iyy="8.97647e-06" iyz="3.87745e-07" izz="8.83384e-06"/>
+    </inertial>
+  </link>
+  <link name="ZDT_X42_L40Motor_1">
+    <!-- sw2robot inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/ZDT_X42_L40Motor_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/ZDT_X42_L40Motor_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.003110142895 -0.004322324846 0.053232384" rpy="0 0 0"/>
+      <mass value="0.077416"/>
+      <inertia ixx="2.61134e-05" ixy="-1.9092e-10" ixz="2.15416e-09" iyy="2.53475e-05" iyz="4.31602e-07" izz="2.22578e-05"/>
+    </inertial>
+  </link>
+  <link name="ZDT_X42_L40Motor_2">
+    <!-- sw2robot inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/ZDT_X42_L40Motor_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/ZDT_X42_L40Motor_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.003110142895 -0.004322324846 0.053232384" rpy="0 0 0"/>
+      <mass value="0.077416"/>
+      <inertia ixx="2.61134e-05" ixy="-1.9092e-10" ixz="2.15416e-09" iyy="2.53475e-05" iyz="4.31602e-07" izz="2.22578e-05"/>
+    </inertial>
+  </link>
+  <link name="ZDT_X42_L40Motor_3">
+    <!-- sw2robot inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/ZDT_X42_L40Motor_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/ZDT_X42_L40Motor_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.003110142895 -0.004322324846 0.053232384" rpy="0 0 0"/>
+      <mass value="0.077416"/>
+      <inertia ixx="2.61134e-05" ixy="-1.9092e-10" ixz="2.15416e-09" iyy="2.53475e-05" iyz="4.31602e-07" izz="2.22578e-05"/>
+    </inertial>
+  </link>
+  <link name="base_link">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="1.570796327 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/frame0_ZERO_ARM_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.570796327 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/frame0_ZERO_ARM_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.0001887316694 -0.0001449196285 0.05307905117" rpy="0 0 0"/>
+      <mass value="0.394762"/>
+      <inertia ixx="0.00122044" ixy="-1.07971e-08" ixz="-5.0416e-06" iyy="0.00122061" iyz="3.23629e-06" izz="0.000683239"/>
+    </inertial>
+  </link>
+  <link name="link_1">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0.05562590181 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/frame1_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0.05562590181 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/frame1_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0.02210148221 0.08849323102 0.0001173284887" rpy="0 0 0"/>
+      <mass value="0.0507087"/>
+      <inertia ixx="2.47277e-05" ixy="1.09986e-05" ixz="1.17035e-07" iyy="3.81109e-05" iyz="-3.39922e-08" izz="3.62878e-05"/>
+    </inertial>
+  </link>
+  <link name="link_2">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="-0.006 0.1 0" rpy="-1.570796327 1.570796327 -1.570796327"/>
+      <geometry>
+        <mesh filename="../meshes/frame2_2.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="-0.006 0.1 0" rpy="-1.570796327 1.570796327 -1.570796327"/>
+      <geometry>
+        <mesh filename="../meshes/frame2_2.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0.009067323657 0.09937636648 -0.0003162106784" rpy="0 0 0"/>
+      <mass value="0.116369"/>
+      <inertia ixx="0.000793756" ixy="-1.70277e-06" ixz="-2.69005e-07" iyy="5.21732e-05" iyz="-4.66007e-08" izz="0.000794637"/>
+    </inertial>
+  </link>
+  <link name="frame3_1">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/frame3_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/frame3_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0.04591330491 0.03806417422 0.02802218153" rpy="0 0 0"/>
+      <mass value="0.0725165"/>
+      <inertia ixx="6.15174e-05" ixy="2.78914e-05" ixz="4.04855e-05" iyy="0.000115251" iyz="1.57601e-05" izz="0.000116925"/>
+    </inertial>
+  </link>
+  <link name="frame4_1">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/frame4_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/frame4_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.0001726376283 0.04150351953 0.006606063877" rpy="0 0 0"/>
+      <mass value="0.054889"/>
+      <inertia ixx="7.32709e-05" ixy="1.12815e-07" ixz="1.60029e-07" iyy="2.22641e-05" iyz="4.31301e-07" izz="7.72929e-05"/>
+    </inertial>
+  </link>
+  <link name="frame5_1">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/frame5_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/frame5_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-5.133271527e-05 -0.02255293216 0.06579908952" rpy="0 0 0"/>
+      <mass value="0.0661582"/>
+      <inertia ixx="0.000128609" ixy="-8.05277e-08" ixz="1.45194e-07" iyy="0.000114497" iyz="-4.12219e-05" izz="4.04441e-05"/>
+    </inertial>
+  </link>
+  <link name="tapered_roller_bearings_gb_2">
+    <!-- sw2robot density="7700" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/tapered_roller_bearings_gb_2.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/tapered_roller_bearings_gb_2.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0.0008149966116 1.018515226e-09 -5.369711687e-10" rpy="0 0 0"/>
+      <mass value="0.0519708"/>
+      <inertia ixx="1.10823e-05" ixy="-3.70081e-13" ixz="8.51621e-14" iyy="6.07383e-06" iyz="-8.09501e-13" izz="6.07383e-06"/>
+    </inertial>
+  </link>
+  <link name="c_35_38_1">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_35_38_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_35_38_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="2.286713494e-18 0.0194446676 4.518669631e-06" rpy="0 0 0"/>
+      <mass value="0.0409861"/>
+      <inertia ixx="9.26265e-06" ixy="2.14239e-21" ixz="1.18171e-22" iyy="6.67117e-06" iyz="5.75153e-09" izz="9.26321e-06"/>
+    </inertial>
+  </link>
+  <link name="c_35_38_2">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_35_38_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_35_38_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="2.286713494e-18 0.0194446676 4.518669631e-06" rpy="0 0 0"/>
+      <mass value="0.0409861"/>
+      <inertia ixx="9.26265e-06" ixy="2.14239e-21" ixz="1.18171e-22" iyy="6.67117e-06" iyz="5.75153e-09" izz="9.26321e-06"/>
+    </inertial>
+  </link>
+  <link name="c_36_38_2">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_36_38_2.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_36_38_2.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-2.516957788e-21 0.01878832855 1.28405731e-05" rpy="0 0 0"/>
+      <mass value="0.0410804"/>
+      <inertia ixx="9.43677e-06" ixy="-2.18863e-26" ixz="-3.87033e-24" iyy="6.29876e-06" iyz="-9.46084e-09" izz="9.43784e-06"/>
+    </inertial>
+  </link>
+  <link name="c_36_47_1">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_36_47_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_36_47_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="2.038508364e-21 0.0235 7.30262826e-06" rpy="0 0 0"/>
+      <mass value="0.0507222"/>
+      <inertia ixx="1.55294e-05" ixy="-1.13091e-23" ixz="-3.52191e-24" iyy="7.78826e-06" iyz="-5.0203e-22" izz="1.55305e-05"/>
+    </inertial>
+  </link>
+  <link name="c_36_47_2">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_36_47_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_36_47_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="2.038508364e-21 0.0235 7.30262826e-06" rpy="0 0 0"/>
+      <mass value="0.0507222"/>
+      <inertia ixx="1.55294e-05" ixy="-1.13091e-23" ixz="-3.52191e-24" iyy="7.78826e-06" iyz="-5.0203e-22" izz="1.55305e-05"/>
+    </inertial>
+  </link>
+  <link name="M3_05_1">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/M3_05_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/M3_05_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="3.744556485e-19 1.150679783e-34 0.0055" rpy="0 0 0"/>
+      <mass value="0.00678254"/>
+      <inertia ixx="4.20128e-07" ixy="4.7389e-40" ixz="3.15017e-24" iyy="4.20128e-07" iyz="-3.73166e-40" izz="5.48484e-07"/>
+    </inertial>
+  </link>
+  <link name="M3_05_2">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/M3_05_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/M3_05_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="3.744556485e-19 1.150679783e-34 0.0055" rpy="0 0 0"/>
+      <mass value="0.00678254"/>
+      <inertia ixx="4.20128e-07" ixy="4.7389e-40" ixz="3.15017e-24" iyy="4.20128e-07" iyz="-3.73166e-40" izz="5.48484e-07"/>
+    </inertial>
+  </link>
+  <link name="M3_05_3">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/M3_05_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/M3_05_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="3.744556485e-19 1.150679783e-34 0.0055" rpy="0 0 0"/>
+      <mass value="0.00678254"/>
+      <inertia ixx="4.20128e-07" ixy="4.7389e-40" ixz="3.15017e-24" iyy="4.20128e-07" iyz="-3.73166e-40" izz="5.48484e-07"/>
+    </inertial>
+  </link>
+  <link name="M3_06_1">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/M3_06_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/M3_06_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="3.95099118e-19 1.176387196e-34 0.0055" rpy="0 0 0"/>
+      <mass value="0.00665295"/>
+      <inertia ixx="4.17204e-07" ixy="4.90082e-40" ixz="1.9094e-24" iyy="4.17204e-07" iyz="-3.86314e-40" izz="5.47496e-07"/>
+    </inertial>
+  </link>
+  <link name="M3_08_1">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/M3_08_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/M3_08_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="4.417329954e-19 1.246579141e-34 0.0055" rpy="0 0 0"/>
+      <mass value="0.00632308"/>
+      <inertia ixx="4.08957e-07" ixy="5.3744e-40" ixz="6.87248e-24" iyy="4.08957e-07" iyz="-4.1978e-40" izz="5.43373e-07"/>
+    </inertial>
+  </link>
+  <link name="M3_08_2">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/M3_08_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/M3_08_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="4.417329954e-19 1.246579141e-34 0.0055" rpy="0 0 0"/>
+      <mass value="0.00632308"/>
+      <inertia ixx="4.08957e-07" ixy="5.3744e-40" ixz="6.87248e-24" iyy="4.08957e-07" iyz="-4.1978e-40" izz="5.43373e-07"/>
+    </inertial>
+  </link>
+  <link name="c_1_3">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1_3.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1_3.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0.07206524656 -0.003893824442 -0.07207084843" rpy="0 0 0"/>
+      <mass value="0.0491462"/>
+      <inertia ixx="2.09295e-05" ixy="-2.75471e-07" ixz="-1.09338e-05" iyy="3.92583e-05" iyz="2.72661e-07" izz="2.09385e-05"/>
+    </inertial>
+  </link>
+  <link name="c_2_3">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1_3.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1_3.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0.07206524656 -0.003893824442 -0.07207084843" rpy="0 0 0"/>
+      <mass value="0.0491462"/>
+      <inertia ixx="2.09295e-05" ixy="-2.75471e-07" ixz="-1.09338e-05" iyy="3.92583e-05" iyz="2.72661e-07" izz="2.09385e-05"/>
+    </inertial>
+  </link>
+  <link name="c_3_2">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1_3.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1_3.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0.07206524656 -0.003893824442 -0.07207084843" rpy="0 0 0"/>
+      <mass value="0.0491462"/>
+      <inertia ixx="2.09295e-05" ixy="-2.75471e-07" ixz="-1.09338e-05" iyy="3.92583e-05" iyz="2.72661e-07" izz="2.09385e-05"/>
+    </inertial>
+  </link>
+  <link name="c_4_3">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1_3.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1_3.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0.07206524656 -0.003893824442 -0.07207084843" rpy="0 0 0"/>
+      <mass value="0.0491462"/>
+      <inertia ixx="2.09295e-05" ixy="-2.75471e-07" ixz="-1.09338e-05" iyy="3.92583e-05" iyz="2.72661e-07" izz="2.09385e-05"/>
+    </inertial>
+  </link>
+  <link name="c_1_2">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1_2.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1_2.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="6.383728491e-19 4.131884776e-20 0.01686858665" rpy="0 0 0"/>
+      <mass value="0.00750729"/>
+      <inertia ixx="2.16572e-06" ixy="6.46235e-24" ixz="1.6406e-22" iyy="2.16572e-06" iyz="5.11758e-24" izz="5.03954e-07"/>
+    </inertial>
+  </link>
+  <link name="c_1">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0.001 -1.146369667e-19" rpy="0 0 0"/>
+      <mass value="5.16792e-06"/>
+      <inertia ixx="5.36925e-12" ixy="4.62658e-44" ixz="2.39962e-44" iyy="7.29323e-12" iyz="1.1263e-43" izz="5.36925e-12"/>
+    </inertial>
+  </link>
+  <link name="c_10">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0.001 -1.146369667e-19" rpy="0 0 0"/>
+      <mass value="5.16792e-06"/>
+      <inertia ixx="5.36925e-12" ixy="4.62658e-44" ixz="2.39962e-44" iyy="7.29323e-12" iyz="1.1263e-43" izz="5.36925e-12"/>
+    </inertial>
+  </link>
+  <link name="c_2">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0.001 -1.146369667e-19" rpy="0 0 0"/>
+      <mass value="5.16792e-06"/>
+      <inertia ixx="5.36925e-12" ixy="4.62658e-44" ixz="2.39962e-44" iyy="7.29323e-12" iyz="1.1263e-43" izz="5.36925e-12"/>
+    </inertial>
+  </link>
+  <link name="c_3">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0.001 -1.146369667e-19" rpy="0 0 0"/>
+      <mass value="5.16792e-06"/>
+      <inertia ixx="5.36925e-12" ixy="4.62658e-44" ixz="2.39962e-44" iyy="7.29323e-12" iyz="1.1263e-43" izz="5.36925e-12"/>
+    </inertial>
+  </link>
+  <link name="c_4">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0.001 -1.146369667e-19" rpy="0 0 0"/>
+      <mass value="5.16792e-06"/>
+      <inertia ixx="5.36925e-12" ixy="4.62658e-44" ixz="2.39962e-44" iyy="7.29323e-12" iyz="1.1263e-43" izz="5.36925e-12"/>
+    </inertial>
+  </link>
+  <link name="c_5">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0.001 -1.146369667e-19" rpy="0 0 0"/>
+      <mass value="5.16792e-06"/>
+      <inertia ixx="5.36925e-12" ixy="4.62658e-44" ixz="2.39962e-44" iyy="7.29323e-12" iyz="1.1263e-43" izz="5.36925e-12"/>
+    </inertial>
+  </link>
+  <link name="c_6">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0.001 -1.146369667e-19" rpy="0 0 0"/>
+      <mass value="5.16792e-06"/>
+      <inertia ixx="5.36925e-12" ixy="4.62658e-44" ixz="2.39962e-44" iyy="7.29323e-12" iyz="1.1263e-43" izz="5.36925e-12"/>
+    </inertial>
+  </link>
+  <link name="c_7">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0.001 -1.146369667e-19" rpy="0 0 0"/>
+      <mass value="5.16792e-06"/>
+      <inertia ixx="5.36925e-12" ixy="4.62658e-44" ixz="2.39962e-44" iyy="7.29323e-12" iyz="1.1263e-43" izz="5.36925e-12"/>
+    </inertial>
+  </link>
+  <link name="c_8">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0.001 -1.146369667e-19" rpy="0 0 0"/>
+      <mass value="5.16792e-06"/>
+      <inertia ixx="5.36925e-12" ixy="4.62658e-44" ixz="2.39962e-44" iyy="7.29323e-12" iyz="1.1263e-43" izz="5.36925e-12"/>
+    </inertial>
+  </link>
+  <link name="c_9">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0.001 -1.146369667e-19" rpy="0 0 0"/>
+      <mass value="5.16792e-06"/>
+      <inertia ixx="5.36925e-12" ixy="4.62658e-44" ixz="2.39962e-44" iyy="7.29323e-12" iyz="1.1263e-43" izz="5.36925e-12"/>
+    </inertial>
+  </link>
+  <link name="c_8mm__1">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_8mm__1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_8mm__1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="4.36397565e-18 -6.390708192e-18 0.008106947462" rpy="0 0 0"/>
+      <mass value="0.00881635"/>
+      <inertia ixx="6.52932e-07" ixy="-2.40728e-23" ixz="1.21829e-22" iyy="6.52932e-07" iyz="-9.95469e-23" izz="9.30679e-07"/>
+    </inertial>
+  </link>
+  <link name="link_3">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="-1.783734676 -1.570796327 1.783734676"/>
+      <geometry>
+        <mesh filename="../meshes/c_8mm__1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="-1.783734676 -1.570796327 1.783734676"/>
+      <geometry>
+        <mesh filename="../meshes/c_8mm__1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.008106947462 -2.96092029e-18 -6.392719331e-18" rpy="0 0 0"/>
+      <mass value="0.00881635"/>
+      <inertia ixx="9.30679e-07" ixy="-1.7573e-23" ixz="2.467e-22" iyy="6.52932e-07" iyz="-2.40728e-23" izz="6.52932e-07"/>
+    </inertial>
+  </link>
+  <link name="link_4">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 -0.0025 0" rpy="-1.570796327 1.047197551 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_8mm__1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 -0.0025 0" rpy="-1.570796327 1.047197551 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_8mm__1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-9.006654721e-17 0.005606947462 -5.703903031e-17" rpy="0 0 0"/>
+      <mass value="0.00881635"/>
+      <inertia ixx="6.52932e-07" ixy="-3.20296e-21" ixz="1.11517e-22" iyy="9.30679e-07" iyz="-1.98991e-21" izz="6.52932e-07"/>
+    </inertial>
+  </link>
+  <link name="link_5">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="-1.570796327 -0.8945065117 1.570796327"/>
+      <geometry>
+        <mesh filename="../meshes/c_8mm__1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="-1.570796327 -0.8945065117 1.570796327"/>
+      <geometry>
+        <mesh filename="../meshes/c_8mm__1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.008106947462 -4.916843708e-18 -1.727053838e-19" rpy="0 0 0"/>
+      <mass value="0.00881635"/>
+      <inertia ixx="9.30679e-07" ixy="9.26589e-23" ixz="1.02241e-22" iyy="6.52932e-07" iyz="-9.41376e-23" izz="6.52932e-07"/>
+    </inertial>
+  </link>
+  <link name="link_6">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="3.141592654 0 -0.7425854526"/>
+      <geometry>
+        <mesh filename="../meshes/c_8mm__1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="3.141592654 0 -0.7425854526"/>
+      <geometry>
+        <mesh filename="../meshes/c_8mm__1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-2.234823959e-17 -3.080240812e-17 -0.008106947462" rpy="0 0 0"/>
+      <mass value="0.00881635"/>
+      <inertia ixx="6.52932e-07" ixy="1.73726e-22" ixz="8.66793e-22" iyy="6.52932e-07" iyz="1.12455e-21" izz="9.30679e-07"/>
+    </inertial>
+  </link>
+  <link name="c_0_8mm_1">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_0_8mm_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_0_8mm_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.0001850978207 -0.0001149135535 0.0032" rpy="0 0 0"/>
+      <mass value="0.00122038"/>
+      <inertia ixx="1.50717e-08" ixy="-1.16137e-09" ixz="4.13909e-24" iyy="4.4282e-08" iyz="1.50074e-24" izz="5.11407e-08"/>
+    </inertial>
+  </link>
+  <link name="c_0_8mm_2">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_0_8mm_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_0_8mm_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.0001850978207 -0.0001149135535 0.0032" rpy="0 0 0"/>
+      <mass value="0.00122038"/>
+      <inertia ixx="1.50717e-08" ixy="-1.16137e-09" ixz="4.13909e-24" iyy="4.4282e-08" iyz="1.50074e-24" izz="5.11407e-08"/>
+    </inertial>
+  </link>
+  <link name="c_0_8mm_3">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_0_8mm_1.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_0_8mm_1.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.0001850978207 -0.0001149135535 0.0032" rpy="0 0 0"/>
+      <mass value="0.00122038"/>
+      <inertia ixx="1.50717e-08" ixy="-1.16137e-09" ixz="4.13909e-24" iyy="4.4282e-08" iyz="1.50074e-24" izz="5.11407e-08"/>
+    </inertial>
+  </link>
+  <link name="c_2_2">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_2_2.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_2_2.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.0001353389937 2.801681498e-05 0.0032" rpy="0 0 0"/>
+      <mass value="0.00124946"/>
+      <inertia ixx="1.61826e-08" ixy="-7.835e-10" ixz="4.65159e-24" iyy="4.49712e-08" iyz="2.36705e-24" izz="5.2863e-08"/>
+    </inertial>
+  </link>
+  <link name="c_4_2">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_2_2.3dxml"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/c_2_2.3dxml"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.0001353389937 2.801681498e-05 0.0032" rpy="0 0 0"/>
+      <mass value="0.00124946"/>
+      <inertia ixx="1.61826e-08" ixy="-7.835e-10" ixz="4.65159e-24" iyy="4.49712e-08" iyz="2.36705e-24" izz="5.2863e-08"/>
+    </inertial>
+  </link>
+  <joint name="frame0_ZERO_ARM_1__c_0_8mm_1" type="fixed">
+    <origin xyz="0.0382 0 0.1237" rpy="1.570796327 0 -1.570796327"/>
+    <parent link="base_link"/>
+    <child link="c_0_8mm_1"/>
+    <axis xyz="-1 0 0"/>
+    <!-- mates: WIDTH, COINCIDENT, DISTANCE, WIDTH, COINCIDENT, DISTANCE -->
+    <!-- sw2robot-note: geo: fully constrained -->
+  </joint>
+  <joint name="frame0_ZERO_ARM_1__tapered_roller_bearings_gb_2" type="fixed">
+    <origin xyz="0 0 0.1214" rpy="-0.5675250768 -1.570796327 1.6015506"/>
+    <parent link="base_link"/>
+    <child link="tapered_roller_bearings_gb_2"/>
+    <axis xyz="1 0 0"/>
+    <!-- mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (1 DOF); config sets fixed (inference said revolute) -->
+  </joint>
+  <joint name="frame0_ZERO_ARM_1__c_1" type="fixed">
+    <origin xyz="0.0298 0.00475 0.1211" rpy="1.570796327 1.570796327 0"/>
+    <parent link="base_link"/>
+    <child link="c_1"/>
+    <axis xyz="0 1 0"/>
+    <!-- mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (1 DOF); config sets fixed (inference said revolute) -->
+  </joint>
+  <joint name="frame0_ZERO_ARM_1__c_2" type="fixed">
+    <origin xyz="0.0298 -0.00475 0.1211" rpy="1.570796327 1.570796327 0"/>
+    <parent link="base_link"/>
+    <child link="c_2"/>
+    <axis xyz="0 1 0"/>
+    <!-- mates: COINCIDENT, CONCENTRIC, COINCIDENT, CONCENTRIC -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (1 DOF); config sets fixed (inference said revolute) -->
+  </joint>
+  <joint name="joint_1" type="revolute">
+    <origin xyz="0 0 0.05187409819" rpy="1.570796327 0 0"/>
+    <parent link="base_link"/>
+    <child link="link_1"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-3.14159" upper="3.14159" effort="10" velocity="3.14"/>
+    <!-- mates: CONCENTRIC, CONCENTRIC -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (2 DOF) -->
+  </joint>
+  <joint name="frame1_1__c_2_2" type="fixed">
+    <origin xyz="0.0371 0.09012590181 -0.0126" rpy="0 1.570796327 0"/>
+    <parent link="link_1"/>
+    <child link="c_2_2"/>
+    <axis xyz="0 0 -1"/>
+    <!-- mates: COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT -->
+    <!-- sw2robot-note: geo: fully constrained -->
+  </joint>
+  <joint name="frame1_1__c_3" type="fixed">
+    <origin xyz="0.0435 0.08752590181 -0.01735" rpy="0 -1.363399751 -1.570796327"/>
+    <parent link="link_1"/>
+    <child link="c_3"/>
+    <axis xyz="0 -1 0"/>
+    <!-- mates: CONCENTRIC, CONCENTRIC -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (2 DOF); config sets fixed (inference said revolute) -->
+  </joint>
+  <joint name="frame1_1__c_4" type="fixed">
+    <origin xyz="0.0435 0.08752590181 -0.00785" rpy="0 -0.1011922772 -1.570796327"/>
+    <parent link="link_1"/>
+    <child link="c_4"/>
+    <axis xyz="0 -1 0"/>
+    <!-- mates: CONCENTRIC, CONCENTRIC -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (2 DOF); config sets fixed (inference said revolute) -->
+  </joint>
+  <joint name="frame1_1__c_42XG_2" type="fixed">
+    <origin xyz="0 0.04112590181 0" rpy="-1.570796327 0.8468699703 -3.141592654"/>
+    <parent link="link_1"/>
+    <child link="c_42XG_2"/>
+    <axis xyz="0 0 1"/>
+    <!-- mates: DISTANCE, DISTANCE -->
+    <!-- sw2robot-note: geo: under-constrained (3 DOF) -> fixed; verify -->
+  </joint>
+  <joint name="c_42XG_2__ZDT_X42_L40Motor_1" type="fixed">
+    <origin xyz="-0.005570353491 -0.0007735658138 0.012" rpy="0 0 2.294722683"/>
+    <parent link="c_42XG_2"/>
+    <child link="ZDT_X42_L40Motor_1"/>
+    <axis xyz="0 0 1"/>
+    <!-- mates: CONCENTRIC, CONCENTRIC, COINCIDENT, CONCENTRIC, CONCENTRIC, COINCIDENT -->
+    <!-- sw2robot-note: geo: fully constrained -->
+  </joint>
+  <joint name="frame1_1__c_8mm__1" type="fixed">
+    <origin xyz="0.0435 0.1091259018 0" rpy="0 -1.570796327 0"/>
+    <parent link="link_1"/>
+    <child link="c_8mm__1"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+  <joint name="c_8mm__1__c_36_47_1" type="fixed">
+    <origin xyz="0 0 0.02" rpy="1.570796327 0 1.570796327"/>
+    <parent link="c_8mm__1"/>
+    <child link="c_36_47_1"/>
+    <axis xyz="0 1 0"/>
+    <!-- mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (1 DOF); config sets fixed (inference said revolute) -->
+  </joint>
+  <joint name="joint_2" type="revolute">
+    <origin xyz="0 0.047 0" rpy="0 0 -1.570796327"/>
+    <parent link="c_36_47_1"/>
+    <child link="link_2"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-3.14159" upper="3.14159" effort="10" velocity="3.14"/>
+    <!-- mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (1 DOF) -->
+  </joint>
+  <joint name="frame2_2__c_36_47_2" type="fixed">
+    <origin xyz="0.047 0.2 0" rpy="-3.141592654 1.570796327 -1.570796327"/>
+    <parent link="link_2"/>
+    <child link="c_36_47_2"/>
+    <axis xyz="0 -1 0"/>
+    <!-- mates: CONCENTRIC, COINCIDENT, CONCENTRIC, CONCENTRIC, COINCIDENT, CONCENTRIC -->
+    <!-- sw2robot-note: geo: fully constrained -->
+  </joint>
+  <joint name="frame2_2__ZDT_X42_L40Motor_3" type="fixed">
+    <origin xyz="-0.031 0.1531098563 0.004685726854" rpy="1.570796327 0 1.570796327"/>
+    <parent link="link_2"/>
+    <child link="ZDT_X42_L40Motor_3"/>
+    <axis xyz="0 0 1"/>
+    <!-- mates: WIDTH, CONCENTRIC, COINCIDENT, WIDTH, CONCENTRIC, COINCIDENT -->
+    <!-- sw2robot-note: geo: fully constrained -->
+  </joint>
+  <joint name="frame2_2__ZDT_X42_L40Motor_2" type="fixed">
+    <origin xyz="-0.031 0.05310985626 0.004685726854" rpy="1.570796327 0 1.570796327"/>
+    <parent link="link_2"/>
+    <child link="ZDT_X42_L40Motor_2"/>
+    <axis xyz="0 0 1"/>
+    <!-- mates: WIDTH, CONCENTRIC, WIDTH, CONCENTRIC -->
+    <!-- sw2robot-note: geo: only axial slide along a fastener axis -->
+  </joint>
+  <joint name="frame2_2__c_4_2" type="fixed">
+    <origin xyz="0.0094 0.1171 0.01833" rpy="1.570796327 0 -1.570796327"/>
+    <parent link="link_2"/>
+    <child link="c_4_2"/>
+    <axis xyz="0 0 -1"/>
+    <!-- mates: DISTANCE, DISTANCE, DISTANCE, DISTANCE, DISTANCE, DISTANCE -->
+    <!-- sw2robot-note: geo: fully constrained -->
+  </joint>
+  <joint name="frame2_2__c_5" type="fixed">
+    <origin xyz="0.001 0.11235 0.01573" rpy="0 -0.003143264252 -1.570796327"/>
+    <parent link="link_2"/>
+    <child link="c_5"/>
+    <axis xyz="0 1 0"/>
+    <!-- mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (1 DOF); config sets fixed (inference said revolute) -->
+  </joint>
+  <joint name="frame2_2__c_6" type="fixed">
+    <origin xyz="0.001 0.12185 0.01573" rpy="0 -1.363399751 -1.570796327"/>
+    <parent link="link_2"/>
+    <child link="c_6"/>
+    <axis xyz="0 1 0"/>
+    <!-- mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (1 DOF); config sets fixed (inference said revolute) -->
+  </joint>
+  <joint name="c_36_47_1__M3_08_1" type="fixed">
+    <origin xyz="0 0.065 0" rpy="1.570796327 1.570796327 0"/>
+    <parent link="c_36_47_1"/>
+    <child link="M3_08_1"/>
+    <axis xyz="0 0 1"/>
+    <!-- mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (1 DOF); config sets fixed (inference said revolute) -->
+  </joint>
+  <joint name="c_36_47_2__M3_08_2" type="fixed">
+    <origin xyz="0 0.065 0" rpy="1.570796327 0.02929169571 0"/>
+    <parent link="c_36_47_2"/>
+    <child link="M3_08_2"/>
+    <axis xyz="0 0 1"/>
+    <!-- mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (1 DOF); config sets fixed (inference said revolute) -->
+  </joint>
+  <joint name="joint_3" type="revolute">
+    <origin xyz="0 -0.02 0" rpy="1.570796327 0 -1.570796327"/>
+    <parent link="c_36_47_2"/>
+    <child link="link_3"/>
+    <axis xyz="-1 0 0"/>
+    <limit lower="-3.14159" upper="3.14159" effort="10" velocity="3.14"/>
+    <!-- mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (1 DOF) -->
+  </joint>
+  <joint name="c_8mm__2__frame3_1" type="fixed">
+    <origin xyz="0.006 0 0" rpy="1.570796327 0 -1.570796327"/>
+    <parent link="link_3"/>
+    <child link="frame3_1"/>
+    <axis xyz="0 0 -1"/>
+    <!-- mates: COINCIDENT, CONCENTRIC, CONCENTRIC, COINCIDENT, CONCENTRIC, CONCENTRIC -->
+    <!-- sw2robot-note: geo: fully constrained -->
+  </joint>
+  <joint name="frame3_1__ZDT_X35_L28Motor_1" type="fixed">
+    <origin xyz="0.0945 0.05197628975 0.05196643252" rpy="-2.003284299 -1.570796327 2.003284299"/>
+    <parent link="frame3_1"/>
+    <child link="ZDT_X35_L28Motor_1"/>
+    <axis xyz="0 0 -1"/>
+    <!-- mates: WIDTH, DISTANCE, WIDTH, DISTANCE -->
+    <!-- sw2robot-note: geo: 1 DOF pure translation; config sets fixed (inference said prismatic) -->
+  </joint>
+  <joint name="frame3_1__c_35_38_1" type="fixed">
+    <origin xyz="0.052 0.04763139721 0.0495" rpy="1.570796327 1.570796327 0"/>
+    <parent link="frame3_1"/>
+    <child link="c_35_38_1"/>
+    <axis xyz="0 -1 0"/>
+    <!-- mates: COINCIDENT, COINCIDENT -->
+    <!-- sw2robot-note: geo: under-constrained (3 DOF) -> fixed; verify -->
+  </joint>
+  <joint name="ZDT_X42_L40Motor_2__M3_05_1" type="fixed">
+    <origin xyz="-0.003109856257 -0.004685726854 0.013" rpy="0 0 -0.6671747085"/>
+    <parent link="ZDT_X42_L40Motor_2"/>
+    <child link="M3_05_1"/>
+    <axis xyz="0 0 1"/>
+    <!-- mates: CONCENTRIC, CONCENTRIC -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (2 DOF); config sets fixed (inference said revolute) -->
+  </joint>
+  <joint name="ZDT_X42_L40Motor_3__M3_05_2" type="fixed">
+    <origin xyz="-0.003109856257 -0.004685726854 0.013" rpy="0 0 -0.6671747085"/>
+    <parent link="ZDT_X42_L40Motor_3"/>
+    <child link="M3_05_2"/>
+    <axis xyz="0 0 1"/>
+    <!-- mates: CONCENTRIC, CONCENTRIC -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (2 DOF); config sets fixed (inference said revolute) -->
+  </joint>
+  <joint name="joint_4" type="revolute">
+    <origin xyz="0 0.058 0" rpy="-3.141592654 0 0"/>
+    <parent link="c_35_38_1"/>
+    <child link="link_4"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-3.14159" upper="3.14159" effort="10" velocity="3.14"/>
+    <!-- mates: CONCENTRIC, CONCENTRIC -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (2 DOF) -->
+  </joint>
+  <joint name="c_8mm__3__frame4_1" type="fixed">
+    <origin xyz="0 -0.0015 0" rpy="1.570796327 1.570796327 -1.570796327"/>
+    <parent link="link_4"/>
+    <child link="frame4_1"/>
+    <axis xyz="0 1 0"/>
+    <!-- mates: COINCIDENT, CONCENTRIC, CONCENTRIC, COINCIDENT, CONCENTRIC, CONCENTRIC -->
+    <!-- sw2robot-note: geo: fully constrained -->
+  </joint>
+  <joint name="frame4_1__c_36_38_2" type="fixed">
+    <origin xyz="0 0.0735 -0.0215" rpy="1.570796327 0 1.570796327"/>
+    <parent link="frame4_1"/>
+    <child link="c_36_38_2"/>
+    <axis xyz="0 -1 0"/>
+    <!-- mates: COINCIDENT, COINCIDENT, CONCENTRIC, CONCENTRIC, COINCIDENT, COINCIDENT, CONCENTRIC, CONCENTRIC -->
+    <!-- sw2robot-note: geo: fully constrained -->
+  </joint>
+  <joint name="frame4_1__ZDT_X35_L28Motor_2" type="fixed">
+    <origin xyz="-0.002466432519 0.02984489255 0.059" rpy="-3.141592654 0 3.141592654"/>
+    <parent link="frame4_1"/>
+    <child link="ZDT_X35_L28Motor_2"/>
+    <axis xyz="0 0 1"/>
+    <!-- mates: CONCENTRIC, COINCIDENT, CONCENTRIC, CONCENTRIC, COINCIDENT, CONCENTRIC -->
+    <!-- sw2robot-note: geo: fully constrained -->
+  </joint>
+  <joint name="frame4_1__c_0_8mm_2" type="fixed">
+    <origin xyz="0.01615 -0.0081 0" rpy="-3.141592654 -1.570796327 0"/>
+    <parent link="frame4_1"/>
+    <child link="c_0_8mm_2"/>
+    <axis xyz="0 0 1"/>
+    <!-- mates: COINCIDENT, SYMMETRIC, DISTANCE, COINCIDENT, SYMMETRIC, DISTANCE -->
+    <!-- sw2robot-note: geo: fully constrained -->
+  </joint>
+  <joint name="frame4_1__c_8" type="fixed">
+    <origin xyz="0.01415 -0.0055 -0.00475" rpy="-3.141592654 1.032598982 1.570796327"/>
+    <parent link="frame4_1"/>
+    <child link="c_8"/>
+    <axis xyz="0 1 0"/>
+    <!-- mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (1 DOF); config sets fixed (inference said revolute) -->
+  </joint>
+  <joint name="c_36_38_2__M3_06_1" type="fixed">
+    <origin xyz="0 0.045 0" rpy="1.570796327 0.8945065117 3.141592654"/>
+    <parent link="c_36_38_2"/>
+    <child link="M3_06_1"/>
+    <axis xyz="0 0 -1"/>
+    <!-- mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (1 DOF); config sets fixed (inference said revolute) -->
+  </joint>
+  <joint name="joint_5" type="revolute">
+    <origin xyz="0 -0.02 0" rpy="-3.141592654 0 -1.570796327"/>
+    <parent link="c_36_38_2"/>
+    <child link="link_5"/>
+    <axis xyz="-1 0 0"/>
+    <limit lower="-3.14159" upper="3.14159" effort="10" velocity="3.14"/>
+    <!-- mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (1 DOF) -->
+  </joint>
+  <joint name="c_8mm__4__frame5_1" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 -1.570796327"/>
+    <parent link="link_5"/>
+    <child link="frame5_1"/>
+    <axis xyz="0 1 0"/>
+    <!-- mates: COINCIDENT, CONCENTRIC, COINCIDENT, CONCENTRIC -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (1 DOF); config sets fixed (inference said revolute) -->
+  </joint>
+  <joint name="frame5_1__c_35_38_2" type="fixed">
+    <origin xyz="0 -0.0415 0.072" rpy="1.570796327 0 -1.570796327"/>
+    <parent link="frame5_1"/>
+    <child link="c_35_38_2"/>
+    <axis xyz="0 -1 0"/>
+    <!-- mates: COINCIDENT, CONCENTRIC, CONCENTRIC, COINCIDENT, CONCENTRIC, CONCENTRIC -->
+    <!-- sw2robot-note: geo: fully constrained -->
+  </joint>
+  <joint name="frame5_1__c_0_8mm_3" type="fixed">
+    <origin xyz="0.00425 -0.0051 0.0176" rpy="0 0 3.141592654"/>
+    <parent link="frame5_1"/>
+    <child link="c_0_8mm_3"/>
+    <axis xyz="0 1 0"/>
+    <!-- mates: COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT -->
+    <!-- sw2robot-note: geo: fully constrained -->
+  </joint>
+  <joint name="c_35_38_2__ZDT_X35_L28Motor_3" type="fixed">
+    <origin xyz="0.002466432519 0.0425 0.004344892546" rpy="1.570796327 0 0"/>
+    <parent link="c_35_38_2"/>
+    <child link="ZDT_X35_L28Motor_3"/>
+    <axis xyz="0 0 -1"/>
+    <!-- mates: COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT -->
+    <!-- sw2robot-note: geo: fully constrained -->
+  </joint>
+  <joint name="frame5_1__c_10" type="fixed">
+    <origin xyz="0.009 -0.0025 0.026" rpy="-1.570796327 0 -0.2724468679"/>
+    <parent link="frame5_1"/>
+    <child link="c_10"/>
+    <axis xyz="0 1 0"/>
+    <!-- mates: COINCIDENT, CONCENTRIC, COINCIDENT, CONCENTRIC -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (1 DOF); config sets fixed (inference said revolute) -->
+  </joint>
+  <joint name="frame5_1__c_9" type="fixed">
+    <origin xyz="-0.0005 -0.0025 0.026" rpy="-1.570796327 0 -0.2724468679"/>
+    <parent link="frame5_1"/>
+    <child link="c_9"/>
+    <axis xyz="0 1 0"/>
+    <!-- mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (1 DOF); config sets fixed (inference said revolute) -->
+  </joint>
+  <joint name="joint_6" type="revolute">
+    <origin xyz="0 0.058 0" rpy="1.570796327 0 -3.141592654"/>
+    <parent link="c_35_38_2"/>
+    <child link="link_6"/>
+    <axis xyz="0 0 -1"/>
+    <limit lower="-3.14159" upper="3.14159" effort="10" velocity="3.14"/>
+    <!-- mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (1 DOF) -->
+  </joint>
+  <joint name="c_8mm__5__c_1_2" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 -1.266184228"/>
+    <parent link="link_6"/>
+    <child link="c_1_2"/>
+    <axis xyz="0 0 1"/>
+    <!-- mates: COINCIDENT, CONCENTRIC, CONCENTRIC, COINCIDENT, CONCENTRIC, CONCENTRIC -->
+    <!-- sw2robot-note: geo: fully constrained -->
+  </joint>
+  <joint name="ZDT_X35_L28Motor_2__M3_05_3" type="fixed">
+    <origin xyz="-0.002466432519 -0.004344892546 0.0245" rpy="0 0 -2.91426085"/>
+    <parent link="ZDT_X35_L28Motor_2"/>
+    <child link="M3_05_3"/>
+    <axis xyz="0 0 1"/>
+    <!-- mates: CONCENTRIC, CONCENTRIC -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (2 DOF); config sets fixed (inference said revolute) -->
+  </joint>
+  <joint name="c_0_8mm_2__c_7" type="fixed">
+    <origin xyz="0.00475 -0.0026 -0.002" rpy="1.570796327 0 -1.914859472"/>
+    <parent link="c_0_8mm_2"/>
+    <child link="c_7"/>
+    <axis xyz="0 1 0"/>
+    <!-- mates: CONCENTRIC, CONCENTRIC -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (2 DOF); config sets fixed (inference said revolute) -->
+  </joint>
+  <joint name="frame0_ZERO_ARM_1__c_1_3" type="fixed">
+    <origin xyz="0 0 0" rpy="1.570796327 0 0"/>
+    <parent link="base_link"/>
+    <child link="c_1_3"/>
+  </joint>
+  <joint name="frame0_ZERO_ARM_1__c_2_3" type="fixed">
+    <origin xyz="0 0 0" rpy="1.570796327 0 -1.570796327"/>
+    <parent link="base_link"/>
+    <child link="c_2_3"/>
+  </joint>
+  <joint name="c_2_3__c_3_2" type="fixed">
+    <origin xyz="0 0 0" rpy="-3.141592654 -1.570796327 3.141592654"/>
+    <parent link="c_2_3"/>
+    <child link="c_3_2"/>
+  </joint>
+  <joint name="c_3_2__c_4_3" type="fixed">
+    <origin xyz="0 0 0" rpy="-3.141592654 -1.570796327 3.141592654"/>
+    <parent link="c_3_2"/>
+    <child link="c_4_3"/>
+  </joint>
+</robot>

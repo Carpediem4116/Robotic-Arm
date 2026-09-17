@@ -11,7 +11,7 @@ date: 2026-09-12
 
 机械臂项目工作区，包含机械模型与打印资源、STM32F103 固件工程、D-H 与 URDF 资料。
 
-最后更新：2026-09-13
+最后更新：2026-09-17
 
 ## 项目目录 / Project Structure
 
@@ -20,7 +20,7 @@ date: 2026-09-12
 | `1. Model/` | STEP 模型、3D 打印文件与装配说明 | [ZERO_ARM.STEP](<1. Model/STEP/ZERO_ARM.STEP>)、[3d_printing_all.3mf](<1. Model/3d_printing_all.3mf>)、[安装教程](<1. Model/installation_guide.md>) |
 | `2. Software/` | STM32CubeIDE 固件工程，含 HAL 与 FreeRTOS | [robot_f103.ioc](<2. Software/robot_f103.ioc>)、[main.c](<2. Software/Core/Src/main.c>)、[freertos.c](<2. Software/Core/Src/freertos.c>) |
 | `3. Simulink/` | MATLAB 初始化脚本、D-H 表和 URDF 资源 | [robot_run.m](<3. Simulink/robot_run.m>)、[D-H.md](<3. Simulink/D-H.md>) |
-| `3. Simulink/UDRT/` | ROS 2 机器人描述包，包名为 `zero_arm_description` | [URDF](<3. Simulink/UDRT/urdf/zero_arm_description.urdf>)、[显示启动文件](<3. Simulink/UDRT/launch/display.launch.py>)、[package.xml](<3. Simulink/UDRT/package.xml>) |
+| `3. Simulink/URDF_export_20260917/exported/zero_arm_description/` | ROS 2 机器人描述包，包名为 `zero_arm_description` | [URDF](<3. Simulink/URDF_export_20260917/exported/zero_arm_description/urdf/zero_arm_description.urdf>)、[显示启动文件](<3. Simulink/URDF_export_20260917/exported/zero_arm_description/launch/display.launch.py>)、[package.xml](<3. Simulink/URDF_export_20260917/exported/zero_arm_description/package.xml>) |
 | `AGENTS.md` | 统一的项目协作、验证与 README 同步规则，也是 Codex 项目指令入口 | [阅读规则](AGENTS.md) |
 
 ## 使用入口 / Getting Started
@@ -41,9 +41,11 @@ date: 2026-09-12
 
 当前脚本没有加载模型或调用 `sim`，本项目内尚未找到 `.slx` 或 `.mdl` 文件。`D-H.md` 用于查看运动学参数，参数在实际模型中的绑定与验证仍需单独完成。
 
-`UDRT/` 是 ROS 2 描述包。其 `package.xml` 声明 `ament_cmake`、`robot_state_publisher`、`joint_state_publisher_gui`、`rviz2` 等依赖；`display.launch.py` 提供机器人状态发布、关节滑块界面和 RViz 显示入口。使用前需准备相应 ROS 2 环境并构建该包。
+`URDF_export_20260917/exported/zero_arm_description/` 是当前 ROS 2 描述包。其 `package.xml` 声明 `ament_cmake`、`robot_state_publisher`、`joint_state_publisher_gui`、`rviz2` 等依赖；`display.launch.py` 提供机器人状态发布、关节滑块界面和 RViz 显示入口。使用前需准备相应 ROS 2 环境并构建该包。
 
 ## 当前状态与待办 / Status and Next Steps
+
+- **新导出：** [2026-09-17 六轴 URDF](<3. Simulink/URDF_export_20260917/README.md>) 已从当前 CAD 独立重新提取，修复旧网格编号错配；7 连杆、6 关节、50 STL。零位几何、网格引用及合并惯量检查通过，浏览器显示已核对；MATLAB/Simulink 尚未运行，关节限位和质量参数待标定。错误的旧 `UDRT/` 已按用户要求删除。
 
 - **已核对：** 目录结构、主要入口、F103 工程配置、默认任务及 MATLAB 脚本内容。
 - **待补齐：** 安装教程引用的 `4. Other/Images/` 在本工程内不存在，教程插图目前缺失。
@@ -62,6 +64,7 @@ date: 2026-09-12
 
 | 日期 | 涉及文件 | 变更内容 | 验证结果 |
 | --- | --- | --- | --- |
+| 2026-09-17 | `3. Simulink/URDF_export_20260917/`、旧 `UDRT/`、两版 README | 按用户要求删除错误的旧 `UDRT/` 并更新入口链接；保存旧导出快照，重新提取 CAD，重建六轴连接并导出独立 URDF/STL 包，附重建脚本和检查记录。 | 7 连杆、6 关节、50 网格；CAD 零位几何与最终惯量结构检查通过。未运行 MATLAB、Simulink 或硬件。 |
 | 2026-09-13 | `readme-cn.md`、`readme-en.md` | 按用户要求精简两版项目说明，保持目录入口与验证状态对应。 | 已核对两版内容、日期、语言切换与本地链接。 |
 | 2026-09-12 | `readme-en.md`、`readme.md`、`AGENTS.md` | 添加完整英文 README 和中英文切换链接；将每次修改后的 README 同步规则扩展为中英文两版。 | 已核对两版章节、项目信息与变更记录，检查文档本地链接。仅修改文档，未执行构建、仿真或硬件测试。 |
 | 2026-09-12 | `AGENTS.md`、`readme.md` | 新增项目说明；将两份 Agent 文档合并为单一 `AGENTS.md` 并移除 `Agent.md`；保留每次修改后同步 README 的完整规则；记录当前工程入口与待验证状态。 | 已静态核对项目文件，检查合并后的规则与本地链接。未执行构建、仿真或硬件测试。 |

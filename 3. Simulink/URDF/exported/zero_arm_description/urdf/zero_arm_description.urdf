@@ -1,0 +1,678 @@
+<?xml version="1.0"?>
+<robot name="zero_arm">
+  <link name="base_link">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/frame0_ZERO_ARM_1.stl" />
+      </geometry>
+    <material name="frame0_ZERO_ARM_1_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/frame0_ZERO_ARM_1.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_0_8mm_1.stl" />
+      </geometry>
+    <material name="c_0_8mm_1_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_0_8mm_1.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/tapered_roller_bearings_gb_2.stl" />
+      </geometry>
+    <material name="tapered_roller_bearings_gb_2_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/tapered_roller_bearings_gb_2.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1.stl" />
+      </geometry>
+    <material name="c_1_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_2.stl" />
+      </geometry>
+    <material name="c_1_2_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_2.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_3.stl" />
+      </geometry>
+    <material name="c_1_3_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_3.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_3_2.stl" />
+      </geometry>
+    <material name="c_1_3_2_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_3_2.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_3_3.stl" />
+      </geometry>
+    <material name="c_1_3_3_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_3_3.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_3_4.stl" />
+      </geometry>
+    <material name="c_1_3_4_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_3_4.stl" />
+      </geometry>
+    </collision>
+    <inertial><origin xyz="-4.882873184e-05 -8.840737492e-05 0.04141165003" rpy="0 0 0" /><mass value="0.6445483158" /><inertia ixx="0.003136205772" ixy="-2.671841515e-08" ixz="-7.707595155e-06" iyy="0.003137853467" iyz="3.886362281e-06" izz="0.002894965252" /></inertial></link>
+  <link name="link_1">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/frame1_1.stl" />
+      </geometry>
+    <material name="frame1_1_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/frame1_1.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_2_2.stl" />
+      </geometry>
+    <material name="c_2_2_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_2_2.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_4.stl" />
+      </geometry>
+    <material name="c_1_4_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_4.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_5.stl" />
+      </geometry>
+    <material name="c_1_5_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_5.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_42XG_2.stl" />
+      </geometry>
+    <material name="c_42XG_2_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_42XG_2.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/ZDT_X42_L40Motor_1.stl" />
+      </geometry>
+    <material name="ZDT_X42_L40Motor_1_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/ZDT_X42_L40Motor_1.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_8mm__1.stl" />
+      </geometry>
+    <material name="c_8mm__1_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_8mm__1.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_36_47_1.stl" />
+      </geometry>
+    <material name="c_36_47_1_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_36_47_1.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/M3_08_1.stl" />
+      </geometry>
+    <material name="M3_08_1_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/M3_08_1.stl" />
+      </geometry>
+    </collision>
+    <inertial><origin xyz="0.004667007458 0.04415493141 6.888045513e-05" rpy="0 0 0" /><mass value="0.2690681258" /><inertia ixx="0.0008516475781" ixy="-4.652734219e-05" ixz="7.046403681e-07" iyy="0.0001342016923" iyz="1.877939484e-06" izz="0.0009097271229" /></inertial></link>
+  <link name="link_2">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/frame2_2.stl" />
+      </geometry>
+    <material name="frame2_2_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/frame2_2.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_36_47_1_2.stl" />
+      </geometry>
+    <material name="c_36_47_1_2_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_36_47_1_2.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/ZDT_X42_L40Motor_1_2.stl" />
+      </geometry>
+    <material name="ZDT_X42_L40Motor_1_2_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/ZDT_X42_L40Motor_1_2.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/ZDT_X42_L40Motor_1_3.stl" />
+      </geometry>
+    <material name="ZDT_X42_L40Motor_1_3_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/ZDT_X42_L40Motor_1_3.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_2_2_2.stl" />
+      </geometry>
+    <material name="c_2_2_2_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_2_2_2.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_6.stl" />
+      </geometry>
+    <material name="c_1_6_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_6.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_7.stl" />
+      </geometry>
+    <material name="c_1_7_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_7.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/M3_08_1_2.stl" />
+      </geometry>
+    <material name="M3_08_1_2_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/M3_08_1_2.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/M3_05_1.stl" />
+      </geometry>
+    <material name="M3_05_1_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/M3_05_1.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/M3_05_1_2.stl" />
+      </geometry>
+    <material name="M3_05_1_2_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/M3_05_1_2.stl" />
+      </geometry>
+    </collision>
+    <inertial><origin xyz="0.01588176912 0.1164805286 0.0001240830868" rpy="0 0 0" /><mass value="0.3430711558" /><inertia ixx="0.001746961974" ixy="-2.267991117e-05" ixz="2.104552523e-07" iyy="0.0001523778696" iyz="2.343165877e-07" izz="0.001791645558" /></inertial></link>
+  <link name="link_3">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_8mm__1_2.stl" />
+      </geometry>
+    <material name="c_8mm__1_2_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_8mm__1_2.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/frame3_1.stl" />
+      </geometry>
+    <material name="frame3_1_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/frame3_1.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/ZDT_X35_L28Motor_1.stl" />
+      </geometry>
+    <material name="ZDT_X35_L28Motor_1_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/ZDT_X35_L28Motor_1.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_35_38_1.stl" />
+      </geometry>
+    <material name="c_35_38_1_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_35_38_1.stl" />
+      </geometry>
+    </collision>
+    <inertial><origin xyz="-0.0321371473 -0.04715175699 0.04100795535" rpy="0 0 0" /><mass value="0.16366815" /><inertia ixx="0.0002056575017" ixy="2.379121904e-05" ixz="1.651831288e-06" iyy="0.0001205224218" iyz="-7.196418717e-06" izz="0.0002072202344" /></inertial></link>
+  <link name="link_4">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_8mm__1_3.stl" />
+      </geometry>
+    <material name="c_8mm__1_3_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_8mm__1_3.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/frame4_1.stl" />
+      </geometry>
+    <material name="frame4_1_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/frame4_1.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_36_38_2.stl" />
+      </geometry>
+    <material name="c_36_38_2_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_36_38_2.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/ZDT_X35_L28Motor_1_2.stl" />
+      </geometry>
+    <material name="ZDT_X35_L28Motor_1_2_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/ZDT_X35_L28Motor_1_2.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_0_8mm_1_2.stl" />
+      </geometry>
+    <material name="c_0_8mm_1_2_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_0_8mm_1_2.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_8.stl" />
+      </geometry>
+    <material name="c_1_8_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_8.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/M3_06_1.stl" />
+      </geometry>
+    <material name="M3_06_1_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/M3_06_1.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/M3_05_1_3.stl" />
+      </geometry>
+    <material name="M3_05_1_3_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/M3_05_1_3.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_9.stl" />
+      </geometry>
+    <material name="c_1_9_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_9.stl" />
+      </geometry>
+    </collision>
+    <inertial><origin xyz="-0.003931817421 -0.04485319324 -3.125506898e-05" rpy="0 0 0" /><mass value="0.1608011558" /><inertia ixx="0.0001782083168" ixy="1.61395878e-06" ixz="4.051555108e-07" iyy="5.446555117e-05" iyz="1.090547434e-06" izz="0.0001886660957" /></inertial></link>
+  <link name="link_5">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_8mm__1_4.stl" />
+      </geometry>
+    <material name="c_8mm__1_4_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_8mm__1_4.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/frame5_1.stl" />
+      </geometry>
+    <material name="frame5_1_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/frame5_1.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_35_38_1_2.stl" />
+      </geometry>
+    <material name="c_35_38_1_2_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_35_38_1_2.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_0_8mm_1_3.stl" />
+      </geometry>
+    <material name="c_0_8mm_1_3_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_0_8mm_1_3.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/ZDT_X35_L28Motor_1_3.stl" />
+      </geometry>
+    <material name="ZDT_X35_L28Motor_1_3_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/ZDT_X35_L28Motor_1_3.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_10.stl" />
+      </geometry>
+    <material name="c_1_10_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_10.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_11.stl" />
+      </geometry>
+    <material name="c_1_11_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_11.stl" />
+      </geometry>
+    </collision>
+    <inertial><origin xyz="-0.03151468664 0.0001764858994 0.06568203053" rpy="0 0 0" /><mass value="0.1585405658" /><inertia ixx="0.0002062964106" ixy="4.621785105e-07" ixz="-1.994841454e-05" iyy="0.0002391088247" iyz="-4.670391093e-07" izz="7.611341525e-05" /></inertial></link>
+  <link name="link_6">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_8mm__1_5.stl" />
+      </geometry>
+    <material name="c_8mm__1_5_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_8mm__1_5.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_2_2.stl" />
+      </geometry>
+    <material name="c_1_2_2_material"><color rgba="0.749 0.749 0.749 1" /></material></visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://zero_arm_description/meshes/c_1_2_2.stl" />
+      </geometry>
+    </collision>
+    <inertial><origin xyz="-1.196403639e-17 -1.691066445e-17 0.003379374062" rpy="0 0 0" /><mass value="0.01632364" /><inertia ixx="5.347860172e-06" ixy="5.468146915e-23" ixz="-1.365648999e-21" iyy="5.347860172e-06" iyz="-2.089287759e-21" izz="1.434633e-06" /></inertial></link>
+  <joint name="joint_1" type="revolute">
+    <origin xyz="0 0 0.05187409819" rpy="1.570796327 0 0" />
+    <parent link="base_link" />
+    <child link="link_1" />
+    <axis xyz="0 1 0" />
+    <limit lower="-3.14159" upper="3.14159" effort="10" velocity="3.14" />
+    <!-- mates: CONCENTRIC, CONCENTRIC -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (2 DOF) -->
+  </joint>
+  <joint name="joint_2" type="revolute">
+    <origin xyz="-0.0235 0.1091259018 -4.10206857e-12" rpy="-2.051034285e-10 -4.206742894e-20 0" />
+    <parent link="link_1" />
+    <child link="link_2" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14159" upper="3.14159" effort="10" velocity="3.14" />
+    <!-- mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (1 DOF) -->
+  </joint>
+  <joint name="joint_3" type="revolute">
+    <origin xyz="0.067 0.2 1.682696656e-21" rpy="4.10206857e-10 -2.051034286e-10 2.051034285e-10" />
+    <parent link="link_2" />
+    <child link="link_3" />
+    <axis xyz="-1 0 0" />
+    <limit lower="-3.14159" upper="3.14159" effort="10" velocity="3.14" />
+    <!-- mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (1 DOF) -->
+  </joint>
+  <joint name="joint_4" type="revolute">
+    <origin xyz="-0.04350000002 -0.11 0.04763139717" rpy="1.795863687e-10 -2.051034285e-10 0" />
+    <parent link="link_3" />
+    <child link="link_4" />
+    <axis xyz="0 1 0" />
+    <limit lower="-3.14159" upper="3.14159" effort="10" velocity="3.14" />
+    <!-- mates: CONCENTRIC, CONCENTRIC -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (2 DOF) -->
+  </joint>
+  <joint name="joint_5" type="revolute">
+    <origin xyz="0.04149999997 -0.07500000001 -3.279237486e-12" rpy="-4.102068572e-10 -5.897932257e-10 0" />
+    <parent link="link_4" />
+    <child link="link_5" />
+    <axis xyz="-1 0 0" />
+    <limit lower="-3.14159" upper="3.14159" effort="10" velocity="3.14" />
+    <!-- mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (1 DOF) -->
+  </joint>
+  <joint name="joint_6" type="revolute">
+    <origin xyz="-0.0415 2.040779114e-11 0.13" rpy="1.852912451e-27 -4.10206857e-10 -5.897932256e-10" />
+    <parent link="link_5" />
+    <child link="link_6" />
+    <axis xyz="0 0 -1" />
+    <limit lower="-3.14159" upper="3.14159" effort="10" velocity="3.14" />
+    <!-- mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT -->
+    <!-- sw2robot-note: geo: free rotation about mate axis (1 DOF) -->
+  </joint>
+  </robot>

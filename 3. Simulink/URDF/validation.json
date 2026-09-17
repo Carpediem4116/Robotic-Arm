@@ -1,0 +1,785 @@
+{
+  "links": 7,
+  "joints": 6,
+  "unique_visual_meshes": 50,
+  "visual_instances": 50,
+  "bounds_m": [
+    [
+      -0.11877799779176712,
+      -0.2235313954588802,
+      -0.013000000268220901
+    ],
+    [
+      0.11877799779176712,
+      0.11877799779176712,
+      0.38349999641372134
+    ]
+  ],
+  "cad_component_checks": [
+    {
+      "part": "42XG二级减速-2",
+      "max_vertex_error_m": 3.725438479915301e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-1",
+      "max_vertex_error_m": 4.516843779153035e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-2",
+      "max_vertex_error_m": 3.748092771428361e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-3",
+      "max_vertex_error_m": 3.85401020243291e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-1",
+      "max_vertex_error_m": 6.028984162795933e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-2",
+      "max_vertex_error_m": 6.036332789520988e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-3",
+      "max_vertex_error_m": 7.827970218353663e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "frame0^ZERO_ARM-1",
+      "max_vertex_error_m": 7.048360164098331e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "frame1-1",
+      "max_vertex_error_m": 7.150450185661618e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "frame2-2",
+      "max_vertex_error_m": 7.466731331116955e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "frame3-1",
+      "max_vertex_error_m": 4.687813939619216e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "frame4-1",
+      "max_vertex_error_m": 3.847468116958308e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "frame5-1",
+      "max_vertex_error_m": 4.741543923319111e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "tapered roller bearings gb-2",
+      "max_vertex_error_m": 7.4544857531382e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "单轴行星减速器35-38-1",
+      "max_vertex_error_m": 5.123875646450502e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "单轴行星减速器35-38-2",
+      "max_vertex_error_m": 5.271132356522265e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "双轴行星减速器36-38-2",
+      "max_vertex_error_m": 3.989522022786896e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "双轴行星减速器36-47-1",
+      "max_vertex_error_m": 7.3576347490301694e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "双轴行星减速器36-47-2",
+      "max_vertex_error_m": 7.567798062778e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "同步轮M3-05-1",
+      "max_vertex_error_m": 3.623098949611441e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "同步轮M3-05-2",
+      "max_vertex_error_m": 7.460272192955109e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "同步轮M3-05-3",
+      "max_vertex_error_m": 1.976719758296812e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "同步轮M3-06-1",
+      "max_vertex_error_m": 3.815005752657716e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "同步轮M3-08-1",
+      "max_vertex_error_m": 4.042733849890945e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "同步轮M3-08-2",
+      "max_vertex_error_m": 7.497358257559468e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "底座固定爪-1",
+      "max_vertex_error_m": 4.288035417090891e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "底座固定爪-2",
+      "max_vertex_error_m": 4.288034848813245e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "底座固定爪-3",
+      "max_vertex_error_m": 4.288034290359831e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "底座固定爪-4",
+      "max_vertex_error_m": 4.288033741679721e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "手机夹具-1",
+      "max_vertex_error_m": 1.950880143237759e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "热熔螺母-1",
+      "max_vertex_error_m": 4.165855397495305e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "热熔螺母-10",
+      "max_vertex_error_m": 6.689406465573563e-10,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "热熔螺母-2",
+      "max_vertex_error_m": 4.16103718098956e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "热熔螺母-3",
+      "max_vertex_error_m": 4.018253503435689e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "热熔螺母-4",
+      "max_vertex_error_m": 3.92479194465384e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "热熔螺母-5",
+      "max_vertex_error_m": 3.762894903394149e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "热熔螺母-6",
+      "max_vertex_error_m": 3.752416697451008e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "热熔螺母-7",
+      "max_vertex_error_m": 4.593462474821955e-10,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "热熔螺母-8",
+      "max_vertex_error_m": 4.713803079971571e-10,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "热熔螺母-9",
+      "max_vertex_error_m": 4.631767199595056e-10,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "轴直径8mm_抱紧式联轴器(客户图）-1",
+      "max_vertex_error_m": 4.009327993180486e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "轴直径8mm_抱紧式联轴器(客户图）-2",
+      "max_vertex_error_m": 9.273232130489496e-10,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "轴直径8mm_抱紧式联轴器(客户图）-3",
+      "max_vertex_error_m": 6.896038201324627e-10,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "轴直径8mm_抱紧式联轴器(客户图）-4",
+      "max_vertex_error_m": 9.905292849821948e-10,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "轴直径8mm_抱紧式联轴器(客户图）-5",
+      "max_vertex_error_m": 1.0608186665440195e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "限位开关_按下_0.8mm-1",
+      "max_vertex_error_m": 7.368536271255159e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "限位开关_按下_0.8mm-2",
+      "max_vertex_error_m": 8.410806703875042e-10,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "限位开关_按下_0.8mm-3",
+      "max_vertex_error_m": 9.178579701701221e-10,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "限位开关_按下_长柄-2",
+      "max_vertex_error_m": 4.002974826098777e-09,
+      "fraction_within_0_1mm": 1.0
+    },
+    {
+      "part": "限位开关_按下_长柄-4",
+      "max_vertex_error_m": 7.316937330867121e-09,
+      "fraction_within_0_1mm": 1.0
+    }
+  ],
+  "nested_component_checks": [
+    {
+      "part": "ZDT_X42_L40Motor-1/ZDT_X42_L40Motor.STEP-1/SHIM_3x7x3.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-1/ZDT_X42_L40Motor.STEP-1/ZDT_X42_V1.2_PCB.step.STEP-1/Board.step.STEP-1/Open CASCADE STEP translator 6.8 4.1.1.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-1/ZDT_X42_L40Motor.STEP-1/ZDT_X42_V1.2_PCB.step.STEP-1/J3.step.STEP-1/XH2.54-8P_H.step.STEP-1/XH2.54-8P_H-0.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-1/ZDT_X42_L40Motor.STEP-1/ZDT_X42_V1.2_PCB.step.STEP-1/Next.step.STEP-1/ts-1145a-b-a_White.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-1/ZDT_X42_L40Motor.STEP-1/ZDT_X42_V1.2_PCB.step.STEP-1/J6.step.STEP-1/User_Library-XH2_54-4P-AW.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-1/ZDT_X42_L40Motor.STEP-1/ZDT_X42_V1.2_PCB.step.STEP-1/J1.step.STEP-1/6308926992.step.STEP-1/Extruded.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-1/ZDT_X42_L40Motor.STEP-1/ZDT_X42_V1.2_PCB.step.STEP-1/J1.step.STEP-1/6308926832.step.STEP-1/Extruded-1.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-1/ZDT_X42_L40Motor.STEP-1/ZDT_X42_V1.2_PCB.step.STEP-1/Enter.step.STEP-1/ts-1145a-b-a_White.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-1/ZDT_X42_L40Motor.STEP-1/42_STEPPER_MOTOR.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-1/ZDT_X42_L40Motor.STEP-1/M3x6mm_Phillips.STEP-3",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-1/ZDT_X42_L40Motor.STEP-1/WIRE_2.54.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-1/ZDT_X42_L40Motor.STEP-1/SHIM_3x7x3.STEP-4",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-1/ZDT_X42_L40Motor.STEP-1/M3x6mm_Phillips.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-1/ZDT_X42_L40Motor.STEP-1/M3x6mm_Phillips.STEP-2",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-1/ZDT_X42_L40Motor.STEP-1/SHIM_3x7x3.STEP-2",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-1/ZDT_X42_L40Motor.STEP-1/ZDT_X42_V1.2.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-1/ZDT_X42_L40Motor.STEP-1/SHIM_3x7x3.STEP-3",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-1/ZDT_X42_L40Motor.STEP-1/M3x6mm_Phillips.STEP-4",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "42XG二级减速-2/42XG二级减速.STEP-1/42XG______.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "42XG二级减速-2/42XG二级减速.STEP-1/42XG______-0.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "42XG二级减速-2/42XG二级减速.STEP-1/42XG____.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-3/ZDT_X42_L40Motor.STEP-1/SHIM_3x7x3.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-3/ZDT_X42_L40Motor.STEP-1/ZDT_X42_V1.2_PCB.step.STEP-1/Board.step.STEP-1/Open CASCADE STEP translator 6.8 4.1.1.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-3/ZDT_X42_L40Motor.STEP-1/ZDT_X42_V1.2_PCB.step.STEP-1/J3.step.STEP-1/XH2.54-8P_H.step.STEP-1/XH2.54-8P_H-0.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-3/ZDT_X42_L40Motor.STEP-1/ZDT_X42_V1.2_PCB.step.STEP-1/Next.step.STEP-1/ts-1145a-b-a_White.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-3/ZDT_X42_L40Motor.STEP-1/ZDT_X42_V1.2_PCB.step.STEP-1/J6.step.STEP-1/User_Library-XH2_54-4P-AW.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-3/ZDT_X42_L40Motor.STEP-1/ZDT_X42_V1.2_PCB.step.STEP-1/J1.step.STEP-1/6308926992.step.STEP-1/Extruded.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-3/ZDT_X42_L40Motor.STEP-1/ZDT_X42_V1.2_PCB.step.STEP-1/J1.step.STEP-1/6308926832.step.STEP-1/Extruded-1.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-3/ZDT_X42_L40Motor.STEP-1/ZDT_X42_V1.2_PCB.step.STEP-1/Enter.step.STEP-1/ts-1145a-b-a_White.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-3/ZDT_X42_L40Motor.STEP-1/42_STEPPER_MOTOR.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-3/ZDT_X42_L40Motor.STEP-1/M3x6mm_Phillips.STEP-3",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-3/ZDT_X42_L40Motor.STEP-1/WIRE_2.54.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-3/ZDT_X42_L40Motor.STEP-1/SHIM_3x7x3.STEP-4",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-3/ZDT_X42_L40Motor.STEP-1/M3x6mm_Phillips.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-3/ZDT_X42_L40Motor.STEP-1/M3x6mm_Phillips.STEP-2",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-3/ZDT_X42_L40Motor.STEP-1/SHIM_3x7x3.STEP-2",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-3/ZDT_X42_L40Motor.STEP-1/ZDT_X42_V1.2.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-3/ZDT_X42_L40Motor.STEP-1/SHIM_3x7x3.STEP-3",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-3/ZDT_X42_L40Motor.STEP-1/M3x6mm_Phillips.STEP-4",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-2/ZDT_X35_L28Motor.STEP-1/SHIM_3x7x3.STEP-4",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-2/ZDT_X35_L28Motor.STEP-1/SHIM_3x7x3.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-2/ZDT_X35_L28Motor.STEP-1/35_STEPPER_MOTOR.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-2/ZDT_X35_L28Motor.STEP-1/ZDT_X35_V1.2_PCB.step.STEP-1/Enter.step.STEP-1/ts-1145a-b-a_White.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-2/ZDT_X35_L28Motor.STEP-1/ZDT_X35_V1.2_PCB.step.STEP-1/J3.step.STEP-1/XH2.54-8P_H.step.STEP-1/XH2.54-8P_H-0.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-2/ZDT_X35_L28Motor.STEP-1/ZDT_X35_V1.2_PCB.step.STEP-1/Board.step.STEP-1/Open CASCADE STEP translator 6.8 4.1.1.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-2/ZDT_X35_L28Motor.STEP-1/ZDT_X35_V1.2_PCB.step.STEP-1/J6.step.STEP-1/User_Library-XH2_54-4P-AW.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-2/ZDT_X35_L28Motor.STEP-1/ZDT_X35_V1.2_PCB.step.STEP-1/J1.step.STEP-1/6308926992.step.STEP-1/Extruded.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-2/ZDT_X35_L28Motor.STEP-1/ZDT_X35_V1.2_PCB.step.STEP-1/J1.step.STEP-1/6308926832.step.STEP-1/Extruded-1.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-2/ZDT_X35_L28Motor.STEP-1/ZDT_X35_V1.2_PCB.step.STEP-1/Next.step.STEP-1/ts-1145a-b-a_White.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-2/ZDT_X35_L28Motor.STEP-1/SHIM_3x7x3.STEP-2",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-2/ZDT_X35_L28Motor.STEP-1/SHIM_3x7x3.STEP-3",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-2/ZDT_X35_L28Motor.STEP-1/ZDT_X35_V1.2.STEP-1",
+      "fraction_within_3mm": 0.921
+    },
+    {
+      "part": "ZDT_X35_L28Motor-2/ZDT_X35_L28Motor.STEP-1/M3x6mm_Phillips.STEP-2",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-2/ZDT_X35_L28Motor.STEP-1/M3x6mm_Phillips.STEP-4",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-2/ZDT_X35_L28Motor.STEP-1/WIRE_2.54.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-2/ZDT_X35_L28Motor.STEP-1/M3x6mm_Phillips.STEP-3",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-2/ZDT_X35_L28Motor.STEP-1/M3x6mm_Phillips.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-2/ZDT_X42_L40Motor.STEP-1/SHIM_3x7x3.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-2/ZDT_X42_L40Motor.STEP-1/ZDT_X42_V1.2_PCB.step.STEP-1/Board.step.STEP-1/Open CASCADE STEP translator 6.8 4.1.1.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-2/ZDT_X42_L40Motor.STEP-1/ZDT_X42_V1.2_PCB.step.STEP-1/J3.step.STEP-1/XH2.54-8P_H.step.STEP-1/XH2.54-8P_H-0.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-2/ZDT_X42_L40Motor.STEP-1/ZDT_X42_V1.2_PCB.step.STEP-1/Next.step.STEP-1/ts-1145a-b-a_White.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-2/ZDT_X42_L40Motor.STEP-1/ZDT_X42_V1.2_PCB.step.STEP-1/J6.step.STEP-1/User_Library-XH2_54-4P-AW.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-2/ZDT_X42_L40Motor.STEP-1/ZDT_X42_V1.2_PCB.step.STEP-1/J1.step.STEP-1/6308926992.step.STEP-1/Extruded.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-2/ZDT_X42_L40Motor.STEP-1/ZDT_X42_V1.2_PCB.step.STEP-1/J1.step.STEP-1/6308926832.step.STEP-1/Extruded-1.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-2/ZDT_X42_L40Motor.STEP-1/ZDT_X42_V1.2_PCB.step.STEP-1/Enter.step.STEP-1/ts-1145a-b-a_White.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-2/ZDT_X42_L40Motor.STEP-1/42_STEPPER_MOTOR.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-2/ZDT_X42_L40Motor.STEP-1/M3x6mm_Phillips.STEP-3",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-2/ZDT_X42_L40Motor.STEP-1/WIRE_2.54.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-2/ZDT_X42_L40Motor.STEP-1/SHIM_3x7x3.STEP-4",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-2/ZDT_X42_L40Motor.STEP-1/M3x6mm_Phillips.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-2/ZDT_X42_L40Motor.STEP-1/M3x6mm_Phillips.STEP-2",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-2/ZDT_X42_L40Motor.STEP-1/SHIM_3x7x3.STEP-2",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-2/ZDT_X42_L40Motor.STEP-1/ZDT_X42_V1.2.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-2/ZDT_X42_L40Motor.STEP-1/SHIM_3x7x3.STEP-3",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X42_L40Motor-2/ZDT_X42_L40Motor.STEP-1/M3x6mm_Phillips.STEP-4",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-3/ZDT_X35_L28Motor.STEP-1/SHIM_3x7x3.STEP-4",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-3/ZDT_X35_L28Motor.STEP-1/SHIM_3x7x3.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-3/ZDT_X35_L28Motor.STEP-1/35_STEPPER_MOTOR.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-3/ZDT_X35_L28Motor.STEP-1/ZDT_X35_V1.2_PCB.step.STEP-1/Enter.step.STEP-1/ts-1145a-b-a_White.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-3/ZDT_X35_L28Motor.STEP-1/ZDT_X35_V1.2_PCB.step.STEP-1/J3.step.STEP-1/XH2.54-8P_H.step.STEP-1/XH2.54-8P_H-0.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-3/ZDT_X35_L28Motor.STEP-1/ZDT_X35_V1.2_PCB.step.STEP-1/Board.step.STEP-1/Open CASCADE STEP translator 6.8 4.1.1.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-3/ZDT_X35_L28Motor.STEP-1/ZDT_X35_V1.2_PCB.step.STEP-1/J6.step.STEP-1/User_Library-XH2_54-4P-AW.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-3/ZDT_X35_L28Motor.STEP-1/ZDT_X35_V1.2_PCB.step.STEP-1/J1.step.STEP-1/6308926992.step.STEP-1/Extruded.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-3/ZDT_X35_L28Motor.STEP-1/ZDT_X35_V1.2_PCB.step.STEP-1/J1.step.STEP-1/6308926832.step.STEP-1/Extruded-1.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-3/ZDT_X35_L28Motor.STEP-1/ZDT_X35_V1.2_PCB.step.STEP-1/Next.step.STEP-1/ts-1145a-b-a_White.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-3/ZDT_X35_L28Motor.STEP-1/SHIM_3x7x3.STEP-2",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-3/ZDT_X35_L28Motor.STEP-1/SHIM_3x7x3.STEP-3",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-3/ZDT_X35_L28Motor.STEP-1/ZDT_X35_V1.2.STEP-1",
+      "fraction_within_3mm": 0.903
+    },
+    {
+      "part": "ZDT_X35_L28Motor-3/ZDT_X35_L28Motor.STEP-1/M3x6mm_Phillips.STEP-2",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-3/ZDT_X35_L28Motor.STEP-1/M3x6mm_Phillips.STEP-4",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-3/ZDT_X35_L28Motor.STEP-1/WIRE_2.54.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-3/ZDT_X35_L28Motor.STEP-1/M3x6mm_Phillips.STEP-3",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-3/ZDT_X35_L28Motor.STEP-1/M3x6mm_Phillips.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-1/ZDT_X35_L28Motor.STEP-1/SHIM_3x7x3.STEP-4",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-1/ZDT_X35_L28Motor.STEP-1/SHIM_3x7x3.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-1/ZDT_X35_L28Motor.STEP-1/35_STEPPER_MOTOR.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-1/ZDT_X35_L28Motor.STEP-1/ZDT_X35_V1.2_PCB.step.STEP-1/Enter.step.STEP-1/ts-1145a-b-a_White.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-1/ZDT_X35_L28Motor.STEP-1/ZDT_X35_V1.2_PCB.step.STEP-1/J3.step.STEP-1/XH2.54-8P_H.step.STEP-1/XH2.54-8P_H-0.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-1/ZDT_X35_L28Motor.STEP-1/ZDT_X35_V1.2_PCB.step.STEP-1/Board.step.STEP-1/Open CASCADE STEP translator 6.8 4.1.1.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-1/ZDT_X35_L28Motor.STEP-1/ZDT_X35_V1.2_PCB.step.STEP-1/J6.step.STEP-1/User_Library-XH2_54-4P-AW.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-1/ZDT_X35_L28Motor.STEP-1/ZDT_X35_V1.2_PCB.step.STEP-1/J1.step.STEP-1/6308926992.step.STEP-1/Extruded.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-1/ZDT_X35_L28Motor.STEP-1/ZDT_X35_V1.2_PCB.step.STEP-1/J1.step.STEP-1/6308926832.step.STEP-1/Extruded-1.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-1/ZDT_X35_L28Motor.STEP-1/ZDT_X35_V1.2_PCB.step.STEP-1/Next.step.STEP-1/ts-1145a-b-a_White.step.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-1/ZDT_X35_L28Motor.STEP-1/SHIM_3x7x3.STEP-2",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-1/ZDT_X35_L28Motor.STEP-1/SHIM_3x7x3.STEP-3",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-1/ZDT_X35_L28Motor.STEP-1/ZDT_X35_V1.2.STEP-1",
+      "fraction_within_3mm": 0.903
+    },
+    {
+      "part": "ZDT_X35_L28Motor-1/ZDT_X35_L28Motor.STEP-1/M3x6mm_Phillips.STEP-2",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-1/ZDT_X35_L28Motor.STEP-1/M3x6mm_Phillips.STEP-4",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-1/ZDT_X35_L28Motor.STEP-1/WIRE_2.54.STEP-1",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-1/ZDT_X35_L28Motor.STEP-1/M3x6mm_Phillips.STEP-3",
+      "fraction_within_3mm": 1.0
+    },
+    {
+      "part": "ZDT_X35_L28Motor-1/ZDT_X35_L28Motor.STEP-1/M3x6mm_Phillips.STEP-1",
+      "fraction_within_3mm": 1.0
+    }
+  ],
+  "merged_link_inertias": {
+    "base_link": {
+      "principal_moments": [
+        0.0028946572314136796,
+        0.003136436430011441,
+        0.0031379308295748786
+      ],
+      "physically_valid": true
+    },
+    "link_1": {
+      "principal_moments": [
+        0.00013119218298932554,
+        0.0008546462029427221,
+        0.0009097380073679524
+      ],
+      "physically_valid": true
+    },
+    "link_2": {
+      "principal_moments": [
+        0.0001520553221010551,
+        0.0017472835203110532,
+        0.0017916465591878913
+      ],
+      "physically_valid": true
+    },
+    "link_3": {
+      "principal_moments": [
+        0.00011374232731199596,
+        0.000207791578518119,
+        0.00021186625206988494
+      ],
+      "physically_valid": true
+    },
+    "link_4": {
+      "principal_moments": [
+        5.443573106916704e-05,
+        0.00017821255736576305,
+        0.00018869167523506995
+      ],
+      "physically_valid": true
+    },
+    "link_5": {
+      "principal_moments": [
+        7.312430422738475e-05,
+        0.00020927530606255015,
+        0.0002391190402600651
+      ],
+      "physically_valid": true
+    },
+    "link_6": {
+      "principal_moments": [
+        1.434633000000001e-06,
+        5.347860171999999e-06,
+        5.347860172e-06
+      ],
+      "physically_valid": true
+    }
+  },
+  "limits": "Placeholder +/- pi radians. Not calibrated hardware limits.",
+  "not_verified": [
+    "MATLAB import",
+    "Simulink simulation",
+    "hardware calibration",
+    "CAD mass accuracy"
+  ],
+  "extraction_warnings": [
+    "Whole-assembly preview 3DXML instance-count warning; per-part files used for URDF.",
+    "Exporter flags 20 nested subcomponent geometry checks; separate top-level CAD geometry comparison recorded here."
+  ]
+}

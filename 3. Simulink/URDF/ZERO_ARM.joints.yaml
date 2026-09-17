@@ -1,0 +1,302 @@
+root_xyz: [0, -0.03, -0.27]
+root_rpy: [-1.5708, 0, 0]
+# Joint config -- this IS the kinematic tree.  Edit parent/child to
+# re-wire the chain and 'type' per edge, then re-run:
+#   uv run python -m sw2robot.exporter.export <asm> --config this_file.yaml
+# type: fixed | revolute | prismatic | continuous
+# Sub-assemblies with moving internals expand automatically;
+# override with  expand: [name-substr]  /  no_expand: [name-substr]
+# Embedded SW2URDF CoordSys/RefAxis config auto-applies when present;
+# set sw2urdf_config: off | require  to disable or enforce it, or
+#   sw2urdf_config: sw2urdf_compat  to migrate the add-in's OWN output --
+#   authored axis signs and its mass/inertia, instead of re-deriving
+# A CAD-only part (a dummy axis) can stay in the tree but export as a
+# bare frame -- no visual, no collision, no inertial:
+#   frame_only: [<part or link name>, ...]   (editor: the row checkbox)
+# Named SolidWorks coordinate systems become frame-only links (an
+# empty dummy_link on a fixed joint -- no visual/collision/inertial),
+# on the part/sub-assembly they were drawn in.  Turn off or pick:
+#   coordinate_system_links: off | all | [<CoordSys name>, ...]
+# Model only half a symmetric robot and generate the rest -- links,
+# joints, inertials and meshes reflected through a base_link plane
+# (same q on both sides = mirror pose; limits carry over unchanged):
+#   mirror_limbs:
+#     - {root: right_arm_0, plane: xz, rename: {right: left}}
+# A CAD reference axis can define ONE joint the mates do not show:
+#   axis_joints: [{axis: <RefAxis name>, parent: <part>, child: <part>}]
+#   (the pair may have no mate at all -- a forgotten constraint)
+# Optional per-joint actuator/physics (movable joints only):
+#   effort: 5   velocity: 2   dynamics: {damping: 0.1, friction: 0.0}
+#   safety_controller: {soft_lower_limit: -1, soft_upper_limit: 1, k_position: 100, k_velocity: 10}   calibration: {rising: 0.0}
+base: frame2_2
+joints:
+  - parent: frame2_2
+    child:  c_36_47_2
+    type:   revolute # mates: CONCENTRIC, COINCIDENT, CONCENTRIC, CONCENTRIC, COINCIDENT, CONCENTRIC | geo: fully constrained
+    lower: -3.14159
+    upper: 3.14159
+  - parent: frame2_2
+    child:  ZDT_X42_L40Motor_3
+    type:   fixed # mates: WIDTH, CONCENTRIC, COINCIDENT, WIDTH, CONCENTRIC, COINCIDENT | geo: fully constrained
+  - parent: frame2_2
+    child:  c_1_1
+    type:   fixed # mates: COINCIDENT, CONCENTRIC, COINCIDENT, COINCIDENT, CONCENTRIC, COINCIDENT | geo: fully constrained
+  - parent: frame2_2
+    child:  ZDT_X42_L40Motor_2
+    type:   fixed # mates: WIDTH, CONCENTRIC, WIDTH, CONCENTRIC | geo: only axial slide along a fastener axis
+  - parent: frame2_2
+    child:  c_4_2
+    type:   fixed # mates: DISTANCE, DISTANCE, DISTANCE, DISTANCE, DISTANCE, DISTANCE | geo: fully constrained
+  - parent: frame2_2
+    child:  c_36_47_1
+    type:   revolute # mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT | geo: free rotation about mate axis (1 DOF)
+    lower: -3.14159
+    upper: 3.14159
+  - parent: frame2_2
+    child:  c_5
+    type:   revolute # mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT | geo: free rotation about mate axis (1 DOF)
+    lower: -3.14159
+    upper: 3.14159
+  - parent: frame2_2
+    child:  c_6
+    type:   revolute # mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT | geo: free rotation about mate axis (1 DOF)
+    lower: -3.14159
+    upper: 3.14159
+  - parent: c_36_47_1
+    child:  M3_08_1
+    type:   revolute # mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT | geo: free rotation about mate axis (1 DOF)
+    lower: -3.14159
+    upper: 3.14159
+  - parent: c_36_47_1
+    child:  c_8mm__1
+    type:   revolute # mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT | geo: free rotation about mate axis (1 DOF)
+    lower: -3.14159
+    upper: 3.14159
+  - parent: c_36_47_2
+    child:  M3_08_2
+    type:   revolute # mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT | geo: free rotation about mate axis (1 DOF)
+    lower: -3.14159
+    upper: 3.14159
+  - parent: c_36_47_2
+    child:  c_8mm__2
+    type:   revolute # mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT | geo: free rotation about mate axis (1 DOF)
+    lower: -3.14159
+    upper: 3.14159
+  - parent: c_8mm__2
+    child:  frame3_1
+    type:   fixed # mates: COINCIDENT, CONCENTRIC, CONCENTRIC, COINCIDENT, CONCENTRIC, CONCENTRIC | geo: fully constrained
+  - parent: frame3_1
+    child:  ZDT_X35_L28Motor_1
+    type:   fixed # mates: WIDTH, DISTANCE, WIDTH, DISTANCE | geo: 1 DOF pure translation; globally locked (pairwise free, but no assembly-wide motion moves this pair -- matches the SolidWorks drag solve)
+  - parent: frame3_1
+    child:  c_35_38_1
+    type:   fixed # mates: COINCIDENT, COINCIDENT | geo: under-constrained (3 DOF) -> fixed; verify
+  - parent: ZDT_X42_L40Motor_2
+    child:  M3_05_1
+    type:   revolute # mates: CONCENTRIC, CONCENTRIC | geo: free rotation about mate axis (2 DOF)
+    lower: -3.14159
+    upper: 3.14159
+  - parent: ZDT_X42_L40Motor_3
+    child:  M3_05_2
+    type:   revolute # mates: CONCENTRIC, CONCENTRIC | geo: free rotation about mate axis (2 DOF)
+    lower: -3.14159
+    upper: 3.14159
+  - parent: c_35_38_1
+    child:  c_8mm__3
+    type:   revolute # mates: CONCENTRIC, CONCENTRIC | geo: free rotation about mate axis (2 DOF)
+    lower: -3.14159
+    upper: 3.14159
+  - parent: c_8mm__3
+    child:  frame4_1
+    type:   fixed # mates: COINCIDENT, CONCENTRIC, CONCENTRIC, COINCIDENT, CONCENTRIC, CONCENTRIC | geo: fully constrained
+  - parent: frame4_1
+    child:  c_36_38_2
+    type:   fixed # mates: COINCIDENT, COINCIDENT, CONCENTRIC, CONCENTRIC, COINCIDENT, COINCIDENT, CONCENTRIC, CONCENTRIC | geo: fully constrained
+  - parent: frame4_1
+    child:  ZDT_X35_L28Motor_2
+    type:   fixed # mates: CONCENTRIC, COINCIDENT, CONCENTRIC, CONCENTRIC, COINCIDENT, CONCENTRIC | geo: fully constrained
+  - parent: frame4_1
+    child:  c_2_1
+    type:   fixed # mates: COINCIDENT, CONCENTRIC, COINCIDENT, COINCIDENT, CONCENTRIC, COINCIDENT | geo: fully constrained
+  - parent: frame4_1
+    child:  c_0_8mm_2
+    type:   fixed # mates: COINCIDENT, SYMMETRIC, DISTANCE, COINCIDENT, SYMMETRIC, DISTANCE | geo: fully constrained
+  - parent: frame4_1
+    child:  c_8
+    type:   revolute # mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT | geo: free rotation about mate axis (1 DOF)
+    lower: -3.14159
+    upper: 3.14159
+  - parent: c_36_38_2
+    child:  M3_06_1
+    type:   revolute # mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT | geo: free rotation about mate axis (1 DOF)
+    lower: -3.14159
+    upper: 3.14159
+  - parent: c_36_38_2
+    child:  c_8mm__4
+    type:   revolute # mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT | geo: free rotation about mate axis (1 DOF)
+    lower: -3.14159
+    upper: 3.14159
+  - parent: c_8mm__4
+    child:  frame5_1
+    type:   revolute # mates: COINCIDENT, CONCENTRIC, COINCIDENT, CONCENTRIC | geo: free rotation about mate axis (1 DOF)
+    lower: -3.14159
+    upper: 3.14159
+  - parent: frame5_1
+    child:  c_35_38_2
+    type:   fixed # mates: COINCIDENT, CONCENTRIC, CONCENTRIC, COINCIDENT, CONCENTRIC, CONCENTRIC | geo: fully constrained
+  - parent: frame5_1
+    child:  c_0_8mm_3
+    type:   fixed # mates: COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT | geo: fully constrained
+  - parent: c_35_38_2
+    child:  ZDT_X35_L28Motor_3
+    type:   fixed # mates: COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT | geo: fully constrained
+  - parent: frame5_1
+    child:  c_10
+    type:   revolute # mates: COINCIDENT, CONCENTRIC, COINCIDENT, CONCENTRIC | geo: free rotation about mate axis (1 DOF)
+    lower: -3.14159
+    upper: 3.14159
+  - parent: frame5_1
+    child:  c_9
+    type:   revolute # mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT | geo: free rotation about mate axis (1 DOF)
+    lower: -3.14159
+    upper: 3.14159
+  - parent: c_35_38_2
+    child:  c_8mm__5
+    type:   revolute # mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT | geo: free rotation about mate axis (1 DOF)
+    lower: -3.14159
+    upper: 3.14159
+  - parent: c_8mm__5
+    child:  c_1_3
+    type:   fixed # mates: COINCIDENT, CONCENTRIC, CONCENTRIC, COINCIDENT, CONCENTRIC, CONCENTRIC | geo: fully constrained
+  - parent: ZDT_X35_L28Motor_2
+    child:  M3_05_3
+    type:   revolute # mates: CONCENTRIC, CONCENTRIC | geo: free rotation about mate axis (2 DOF)
+    lower: -3.14159
+    upper: 3.14159
+  - parent: c_0_8mm_2
+    child:  c_7
+    type:   revolute # mates: CONCENTRIC, CONCENTRIC | geo: free rotation about mate axis (2 DOF)
+    lower: -3.14159
+    upper: 3.14159
+  - parent: c_8mm__1
+    child:  frame0_ZERO_ARM_sw2urdf_zwuu5_mr_1
+    type:   fixed # mates: DISTANCE, DISTANCE | geo: under-constrained (3 DOF) -> fixed; verify
+  - parent: frame0_ZERO_ARM_sw2urdf_zwuu5_mr_1
+    child:  c_0_8mm_1
+    type:   fixed # mates: WIDTH, COINCIDENT, DISTANCE, WIDTH, COINCIDENT, DISTANCE | geo: fully constrained
+  - parent: frame0_ZERO_ARM_sw2urdf_zwuu5_mr_1
+    child:  tapered_roller_bearings_gb_2
+    type:   revolute # mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT | geo: free rotation about mate axis (1 DOF)
+    lower: -3.14159
+    upper: 3.14159
+  - parent: frame0_ZERO_ARM_sw2urdf_zwuu5_mr_1
+    child:  c_1
+    type:   revolute # mates: CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT | geo: free rotation about mate axis (1 DOF)
+    lower: -3.14159
+    upper: 3.14159
+  - parent: frame0_ZERO_ARM_sw2urdf_zwuu5_mr_1
+    child:  c_2
+    type:   revolute # mates: COINCIDENT, CONCENTRIC, COINCIDENT, CONCENTRIC | geo: free rotation about mate axis (1 DOF)
+    lower: -3.14159
+    upper: 3.14159
+  - parent: frame0_ZERO_ARM_sw2urdf_zwuu5_mr_1
+    child:  frame1_1
+    type:   revolute # mates: CONCENTRIC, CONCENTRIC | geo: free rotation about mate axis (2 DOF)
+    lower: -3.14159
+    upper: 3.14159
+  - parent: frame1_1
+    child:  c_2_2
+    type:   fixed # mates: COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT | geo: fully constrained
+  - parent: frame1_1
+    child:  c_3
+    type:   revolute # mates: CONCENTRIC, CONCENTRIC | geo: free rotation about mate axis (2 DOF)
+    lower: -3.14159
+    upper: 3.14159
+  - parent: frame1_1
+    child:  c_4
+    type:   revolute # mates: CONCENTRIC, CONCENTRIC | geo: free rotation about mate axis (2 DOF)
+    lower: -3.14159
+    upper: 3.14159
+  - parent: frame1_1
+    child:  c_42XG_2
+    type:   fixed # mates: DISTANCE, DISTANCE | geo: under-constrained (3 DOF) -> fixed; verify
+  - parent: c_42XG_2
+    child:  ZDT_X42_L40Motor_1
+    type:   fixed # mates: CONCENTRIC, CONCENTRIC, COINCIDENT, CONCENTRIC, CONCENTRIC, COINCIDENT | geo: fully constrained
+  - parent: frame0_ZERO_ARM_sw2urdf_zwuu5_mr_1
+    child:  c_1_2
+    type:   fixed
+  - parent: frame0_ZERO_ARM_sw2urdf_zwuu5_mr_1
+    child:  c_2_3
+    type:   fixed
+  - parent: frame0_ZERO_ARM_sw2urdf_zwuu5_mr_1
+    child:  c_3_2
+    type:   fixed
+  - parent: frame0_ZERO_ARM_sw2urdf_zwuu5_mr_1
+    child:  c_4_3
+    type:   fixed
+
+# --- robot-compiler module interface (optional) ---
+# root_link_name: base_link   # input port; '' keeps the part name
+# ports:                       # output connectors (-> dummy_link)
+#   - parent: <tip link>       # xyz/rpy in that link's frame,
+#     xyz: [0, 0, 0]           # +Z = outgoing connector axis
+#     rpy: [0, 0, 0]
+
+# --- all mate-connected pairs (for reference; re-wire above) ---
+#   M3_05_1  <->  M3_05_2   (COINCIDENT, COINCIDENT)
+#   M3_05_1  <->  M3_08_1   (COINCIDENT, COINCIDENT)
+#   M3_05_1  <->  ZDT_X42_L40Motor_2   (CONCENTRIC, CONCENTRIC)
+#   M3_06_1  <->  M3_05_3   (COINCIDENT, COINCIDENT)
+#   M3_06_1  <->  c_36_38_2   (CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT)
+#   M3_08_2  <->  c_36_47_2   (CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT)
+#   ZDT_X35_L28Motor_2  <->  M3_05_3   (CONCENTRIC, CONCENTRIC)
+#   ZDT_X35_L28Motor_2  <->  frame4_1   (CONCENTRIC, COINCIDENT, CONCENTRIC, CONCENTRIC, COINCIDENT, CONCENTRIC)
+#   ZDT_X42_L40Motor_1  <->  c_42XG_2   (CONCENTRIC, CONCENTRIC, COINCIDENT, CONCENTRIC, CONCENTRIC, COINCIDENT)
+#   ZDT_X42_L40Motor_2  <->  c_36_47_1   (COINCIDENT, COINCIDENT)
+#   ZDT_X42_L40Motor_2  <->  frame2_2   (WIDTH, CONCENTRIC, WIDTH, CONCENTRIC)
+#   ZDT_X42_L40Motor_3  <->  M3_05_2   (CONCENTRIC, CONCENTRIC)
+#   ZDT_X42_L40Motor_3  <->  frame2_2   (WIDTH, CONCENTRIC, COINCIDENT, WIDTH, CONCENTRIC, COINCIDENT)
+#   c_0_8mm_1  <->  frame0_ZERO_ARM_sw2urdf_zwuu5_mr_1   (WIDTH, COINCIDENT, DISTANCE, WIDTH, COINCIDENT, DISTANCE)
+#   c_0_8mm_2  <->  c_7   (CONCENTRIC, CONCENTRIC)
+#   c_0_8mm_2  <->  frame4_1   (COINCIDENT, SYMMETRIC, DISTANCE, COINCIDENT, SYMMETRIC, DISTANCE)
+#   c_0_8mm_3  <->  frame5_1   (COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT)
+#   c_1  <->  frame0_ZERO_ARM_sw2urdf_zwuu5_mr_1   (CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT)
+#   c_10  <->  frame5_1   (COINCIDENT, CONCENTRIC, COINCIDENT, CONCENTRIC)
+#   c_1_3  <->  c_8mm__5   (COINCIDENT, CONCENTRIC, CONCENTRIC, COINCIDENT, CONCENTRIC, CONCENTRIC)
+#   c_2  <->  frame0_ZERO_ARM_sw2urdf_zwuu5_mr_1   (COINCIDENT, CONCENTRIC, COINCIDENT, CONCENTRIC)
+#   c_2_1  <->  frame4_1   (COINCIDENT, CONCENTRIC, COINCIDENT, COINCIDENT, CONCENTRIC, COINCIDENT)
+#   c_2_2  <->  c_3   (COINCIDENT, COINCIDENT)
+#   c_2_2  <->  c_4   (COINCIDENT, COINCIDENT)
+#   c_35_38_1  <->  ZDT_X35_L28Motor_1   (COINCIDENT, CONCENTRIC, COINCIDENT, COINCIDENT, CONCENTRIC, COINCIDENT)
+#   c_35_38_1  <->  c_8mm__3   (CONCENTRIC, CONCENTRIC)
+#   c_35_38_1  <->  frame3_1   (COINCIDENT, COINCIDENT)
+#   c_35_38_2  <->  ZDT_X35_L28Motor_3   (COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT)
+#   c_35_38_2  <->  c_8mm__5   (CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT)
+#   c_35_38_2  <->  frame5_1   (COINCIDENT, CONCENTRIC, CONCENTRIC, COINCIDENT, CONCENTRIC, CONCENTRIC)
+#   c_36_38_2  <->  c_8mm__4   (CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT)
+#   c_36_38_2  <->  frame4_1   (COINCIDENT, COINCIDENT, CONCENTRIC, CONCENTRIC, COINCIDENT, COINCIDENT, CONCENTRIC, CONCENTRIC)
+#   c_36_47_1  <->  M3_08_1   (CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT)
+#   c_36_47_2  <->  c_8mm__2   (CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT)
+#   c_8  <->  frame4_1   (CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT)
+#   c_8mm__1  <->  c_36_47_1   (CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT)
+#   c_8mm__1  <->  frame0_ZERO_ARM_sw2urdf_zwuu5_mr_1   (DISTANCE, DISTANCE)
+#   c_8mm__2  <->  frame3_1   (COINCIDENT, CONCENTRIC, CONCENTRIC, COINCIDENT, CONCENTRIC, CONCENTRIC)
+#   c_8mm__3  <->  frame4_1   (COINCIDENT, CONCENTRIC, CONCENTRIC, COINCIDENT, CONCENTRIC, CONCENTRIC)
+#   c_8mm__4  <->  frame5_1   (COINCIDENT, CONCENTRIC, COINCIDENT, CONCENTRIC)
+#   frame1_1  <->  c_2_2   (COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT, COINCIDENT)
+#   frame1_1  <->  c_3   (CONCENTRIC, CONCENTRIC)
+#   frame1_1  <->  c_4   (CONCENTRIC, CONCENTRIC)
+#   frame1_1  <->  c_42XG_2   (DISTANCE, DISTANCE)
+#   frame1_1  <->  frame0_ZERO_ARM_sw2urdf_zwuu5_mr_1   (CONCENTRIC, CONCENTRIC)
+#   frame2_2  <->  c_1_1   (COINCIDENT, CONCENTRIC, COINCIDENT, COINCIDENT, CONCENTRIC, COINCIDENT)
+#   frame2_2  <->  c_36_47_1   (CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT)
+#   frame2_2  <->  c_36_47_2   (CONCENTRIC, COINCIDENT, CONCENTRIC, CONCENTRIC, COINCIDENT, CONCENTRIC)
+#   frame2_2  <->  c_4_2   (DISTANCE, DISTANCE, DISTANCE, DISTANCE, DISTANCE, DISTANCE)
+#   frame2_2  <->  c_5   (CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT)
+#   frame2_2  <->  c_6   (CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT)
+#   frame3_1  <->  ZDT_X35_L28Motor_1   (WIDTH, DISTANCE, WIDTH, DISTANCE)
+#   frame3_1  <->  c_8mm__3   (DISTANCE, DISTANCE)
+#   frame4_1  <->  c_7   (COINCIDENT, COINCIDENT)
+#   frame5_1  <->  c_9   (CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT)
+#   tapered_roller_bearings_gb_2  <->  frame0_ZERO_ARM_sw2urdf_zwuu5_mr_1   (CONCENTRIC, COINCIDENT, CONCENTRIC, COINCIDENT)
