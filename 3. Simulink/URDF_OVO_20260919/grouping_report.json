@@ -1,0 +1,477 @@
+{
+  "source": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\3. Simulink\\URDF_OVO_20260919\\ZERO_ARM_OVO_RAW.STEP",
+  "instance_count": 50,
+  "group_count": 7,
+  "group_members": {
+    "base": [
+      "frame0^ZERO_ARM-1",
+      "tapered roller bearings gb-2",
+      "限位开关_按下_0.8mm-1",
+      "热熔螺母-1",
+      "热熔螺母-2",
+      "底座固定爪-1",
+      "底座固定爪-2",
+      "底座固定爪-3",
+      "底座固定爪-4"
+    ],
+    "link1": [
+      "ZDT_X42_L40Motor-1",
+      "42XG二级减速-2",
+      "双轴行星减速器36-47-1",
+      "frame1-1",
+      "轴直径8mm_抱紧式联轴器(客户图）-1",
+      "同步轮M3-08-1",
+      "限位开关_按下_长柄-2",
+      "热熔螺母-3",
+      "热熔螺母-4"
+    ],
+    "link2": [
+      "ZDT_X42_L40Motor-2",
+      "ZDT_X42_L40Motor-3",
+      "双轴行星减速器36-47-2",
+      "同步轮M3-05-1",
+      "frame2-2",
+      "同步轮M3-05-2",
+      "同步轮M3-08-2",
+      "限位开关_按下_长柄-4",
+      "热熔螺母-5",
+      "热熔螺母-6"
+    ],
+    "link3": [
+      "ZDT_X35_L28Motor-1",
+      "单轴行星减速器35-38-1",
+      "轴直径8mm_抱紧式联轴器(客户图）-2",
+      "frame3-1"
+    ],
+    "link4": [
+      "双轴行星减速器36-38-2",
+      "ZDT_X35_L28Motor-2",
+      "轴直径8mm_抱紧式联轴器(客户图）-3",
+      "frame4-1",
+      "同步轮M3-05-3",
+      "同步轮M3-06-1",
+      "限位开关_按下_0.8mm-2",
+      "热熔螺母-7",
+      "热熔螺母-8"
+    ],
+    "link5": [
+      "单轴行星减速器35-38-2",
+      "ZDT_X35_L28Motor-3",
+      "轴直径8mm_抱紧式联轴器(客户图）-4",
+      "frame5-1",
+      "限位开关_按下_0.8mm-3",
+      "热熔螺母-9",
+      "热熔螺母-10"
+    ],
+    "link6": [
+      "轴直径8mm_抱紧式联轴器(客户图）-5",
+      "手机夹具-1"
+    ]
+  },
+  "identities": [
+    {
+      "part": "part_001",
+      "source_name": "ZDT_X42_L40Motor-1",
+      "step_definition": "ZDT_X42_L40Motor",
+      "reference_link": "ZDT_X42_L40Motor_1",
+      "target_group": "link1",
+      "transform_max_abs_error": 0.0
+    },
+    {
+      "part": "part_002",
+      "source_name": "42XG二级减速-2",
+      "step_definition": "42XG二级减速",
+      "reference_link": "c_42XG_2",
+      "target_group": "link1",
+      "transform_max_abs_error": 1.0542735760098672e-16
+    },
+    {
+      "part": "part_003",
+      "source_name": "ZDT_X42_L40Motor-2",
+      "step_definition": "ZDT_X42_L40Motor",
+      "reference_link": "ZDT_X42_L40Motor_2",
+      "target_group": "link2",
+      "transform_max_abs_error": 4.507678952325733e-15
+    },
+    {
+      "part": "part_004",
+      "source_name": "双轴行星减速器36-47-1",
+      "step_definition": "双轴行星减速器36-47",
+      "reference_link": "c_36_47_1",
+      "target_group": "link1",
+      "transform_max_abs_error": 2.2540000000000015e-15
+    },
+    {
+      "part": "part_005",
+      "source_name": "ZDT_X42_L40Motor-3",
+      "step_definition": "ZDT_X42_L40Motor",
+      "reference_link": "ZDT_X42_L40Motor_3",
+      "target_group": "link2",
+      "transform_max_abs_error": 4.508546314063722e-15
+    },
+    {
+      "part": "part_006",
+      "source_name": "双轴行星减速器36-47-2",
+      "step_definition": "双轴行星减速器36-47",
+      "reference_link": "c_36_47_2",
+      "target_group": "link2",
+      "transform_max_abs_error": 4.508000000000005e-15
+    },
+    {
+      "part": "part_007",
+      "source_name": "ZDT_X35_L28Motor-1",
+      "step_definition": "ZDT_X35_L28Motor",
+      "reference_link": "ZDT_X35_L28Motor_1",
+      "target_group": "link3",
+      "transform_max_abs_error": 4.517219931443606e-15
+    },
+    {
+      "part": "part_008",
+      "source_name": "双轴行星减速器36-38-2",
+      "step_definition": "双轴行星减速器36-38",
+      "reference_link": "c_36_38_2",
+      "target_group": "link4",
+      "transform_max_abs_error": 4.517219931443606e-15
+    },
+    {
+      "part": "part_009",
+      "source_name": "ZDT_X35_L28Motor-2",
+      "step_definition": "ZDT_X35_L28Motor",
+      "reference_link": "ZDT_X35_L28Motor_2",
+      "target_group": "link4",
+      "transform_max_abs_error": 4.517219931443606e-15
+    },
+    {
+      "part": "part_010",
+      "source_name": "单轴行星减速器35-38-1",
+      "step_definition": "单轴行星减速器35-38",
+      "reference_link": "c_35_38_1",
+      "target_group": "link3",
+      "transform_max_abs_error": 4.517219931443606e-15
+    },
+    {
+      "part": "part_011",
+      "source_name": "单轴行星减速器35-38-2",
+      "step_definition": "单轴行星减速器35-38",
+      "reference_link": "c_35_38_2",
+      "target_group": "link5",
+      "transform_max_abs_error": 4.551914400963142e-15
+    },
+    {
+      "part": "part_012",
+      "source_name": "ZDT_X35_L28Motor-3",
+      "step_definition": "ZDT_X35_L28Motor",
+      "reference_link": "ZDT_X35_L28Motor_3",
+      "target_group": "link5",
+      "transform_max_abs_error": 4.551914400963142e-15
+    },
+    {
+      "part": "part_013",
+      "source_name": "frame0^ZERO_ARM-1",
+      "step_definition": "frame0^ZERO_ARM_OVO_RAW.STEP",
+      "reference_link": "frame0_ZERO_ARM_1",
+      "target_group": "base",
+      "transform_max_abs_error": 0.0
+    },
+    {
+      "part": "part_014",
+      "source_name": "tapered roller bearings gb-2",
+      "step_definition": "tapered roller bearings gb_Rolling bearings 32904 GB 297-94",
+      "reference_link": "tapered_roller_bearings_gb_2",
+      "target_group": "base",
+      "transform_max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "part": "part_015",
+      "source_name": "frame1-1",
+      "step_definition": "frame1",
+      "reference_link": "frame1_1",
+      "target_group": "link1",
+      "transform_max_abs_error": 0.0
+    },
+    {
+      "part": "part_016",
+      "source_name": "轴直径8mm_抱紧式联轴器(客户图）-1",
+      "step_definition": "轴直径8mm_抱紧式联轴器(客户图）",
+      "reference_link": "c_8mm__1",
+      "target_group": "link1",
+      "transform_max_abs_error": 2.2540000000000015e-15
+    },
+    {
+      "part": "part_017",
+      "source_name": "同步轮M3-08-1",
+      "step_definition": "同步轮M3-08",
+      "reference_link": "M3_08_1",
+      "target_group": "link1",
+      "transform_max_abs_error": 0.0
+    },
+    {
+      "part": "part_018",
+      "source_name": "同步轮M3-05-1",
+      "step_definition": "同步轮M3-05",
+      "reference_link": "M3_05_1",
+      "target_group": "link2",
+      "transform_max_abs_error": 4.497443796485044e-15
+    },
+    {
+      "part": "part_019",
+      "source_name": "frame2-2",
+      "step_definition": "frame2",
+      "reference_link": "frame2_2",
+      "target_group": "link2",
+      "transform_max_abs_error": 4.508000000000005e-15
+    },
+    {
+      "part": "part_020",
+      "source_name": "同步轮M3-05-2",
+      "step_definition": "同步轮M3-05",
+      "reference_link": "M3_05_2",
+      "target_group": "link2",
+      "transform_max_abs_error": 4.470128888367628e-15
+    },
+    {
+      "part": "part_021",
+      "source_name": "同步轮M3-08-2",
+      "step_definition": "同步轮M3-08",
+      "reference_link": "M3_08_2",
+      "target_group": "link2",
+      "transform_max_abs_error": 4.509869165495459e-15
+    },
+    {
+      "part": "part_022",
+      "source_name": "轴直径8mm_抱紧式联轴器(客户图）-2",
+      "step_definition": "轴直径8mm_抱紧式联轴器(客户图）",
+      "reference_link": "c_8mm__2",
+      "target_group": "link3",
+      "transform_max_abs_error": 4.508000000000004e-15
+    },
+    {
+      "part": "part_023",
+      "source_name": "frame3-1",
+      "step_definition": "frame3",
+      "reference_link": "frame3_1",
+      "target_group": "link3",
+      "transform_max_abs_error": 4.508000000000005e-15
+    },
+    {
+      "part": "part_024",
+      "source_name": "轴直径8mm_抱紧式联轴器(客户图）-3",
+      "step_definition": "轴直径8mm_抱紧式联轴器(客户图）",
+      "reference_link": "c_8mm__3",
+      "target_group": "link4",
+      "transform_max_abs_error": 4.517219931443606e-15
+    },
+    {
+      "part": "part_025",
+      "source_name": "frame4-1",
+      "step_definition": "frame4",
+      "reference_link": "frame4_1",
+      "target_group": "link4",
+      "transform_max_abs_error": 4.517219931443606e-15
+    },
+    {
+      "part": "part_026",
+      "source_name": "同步轮M3-05-3",
+      "step_definition": "同步轮M3-05",
+      "reference_link": "M3_05_3",
+      "target_group": "link4",
+      "transform_max_abs_error": 4.503342143635791e-15
+    },
+    {
+      "part": "part_027",
+      "source_name": "同步轮M3-06-1",
+      "step_definition": "同步轮M3-06",
+      "reference_link": "M3_06_1",
+      "target_group": "link4",
+      "transform_max_abs_error": 4.517219931443606e-15
+    },
+    {
+      "part": "part_028",
+      "source_name": "轴直径8mm_抱紧式联轴器(客户图）-4",
+      "step_definition": "轴直径8mm_抱紧式联轴器(客户图）",
+      "reference_link": "c_8mm__4",
+      "target_group": "link5",
+      "transform_max_abs_error": 4.503342143635791e-15
+    },
+    {
+      "part": "part_029",
+      "source_name": "frame5-1",
+      "step_definition": "frame5",
+      "reference_link": "frame5_1",
+      "target_group": "link5",
+      "transform_max_abs_error": 4.517219931443606e-15
+    },
+    {
+      "part": "part_030",
+      "source_name": "轴直径8mm_抱紧式联轴器(客户图）-5",
+      "step_definition": "轴直径8mm_抱紧式联轴器(客户图）",
+      "reference_link": "c_8mm__5",
+      "target_group": "link6",
+      "transform_max_abs_error": 4.551914400963142e-15
+    },
+    {
+      "part": "part_031",
+      "source_name": "限位开关_按下_0.8mm-1",
+      "step_definition": "限位开关_按下_0.8mm",
+      "reference_link": "c_0_8mm_1",
+      "target_group": "base",
+      "transform_max_abs_error": 1.1102230246256525e-16
+    },
+    {
+      "part": "part_032",
+      "source_name": "热熔螺母-1",
+      "step_definition": "热熔螺母",
+      "reference_link": "c_1",
+      "target_group": "base",
+      "transform_max_abs_error": 1.1438483125704671e-29
+    },
+    {
+      "part": "part_033",
+      "source_name": "热熔螺母-2",
+      "step_definition": "热熔螺母",
+      "reference_link": "c_2",
+      "target_group": "base",
+      "transform_max_abs_error": 1.1438483125704671e-29
+    },
+    {
+      "part": "part_034",
+      "source_name": "限位开关_按下_长柄-2",
+      "step_definition": "限位开关_按下_长柄",
+      "reference_link": "c_2_2",
+      "target_group": "link1",
+      "transform_max_abs_error": 2.7755575615628914e-17
+    },
+    {
+      "part": "part_035",
+      "source_name": "热熔螺母-3",
+      "step_definition": "热熔螺母",
+      "reference_link": "c_3",
+      "target_group": "link1",
+      "transform_max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "part": "part_036",
+      "source_name": "热熔螺母-4",
+      "step_definition": "热熔螺母",
+      "reference_link": "c_4",
+      "target_group": "link1",
+      "transform_max_abs_error": 3.330669073875584e-16
+    },
+    {
+      "part": "part_037",
+      "source_name": "限位开关_按下_长柄-4",
+      "step_definition": "限位开关_按下_长柄",
+      "reference_link": "c_4_2",
+      "target_group": "link2",
+      "transform_max_abs_error": 8.326672684688832e-17
+    },
+    {
+      "part": "part_038",
+      "source_name": "热熔螺母-5",
+      "step_definition": "热熔螺母",
+      "reference_link": "c_5",
+      "target_group": "link2",
+      "transform_max_abs_error": 4.503342143635791e-15
+    },
+    {
+      "part": "part_039",
+      "source_name": "热熔螺母-6",
+      "step_definition": "热熔螺母",
+      "reference_link": "c_6",
+      "target_group": "link2",
+      "transform_max_abs_error": 4.5102810375396984e-15
+    },
+    {
+      "part": "part_040",
+      "source_name": "限位开关_按下_0.8mm-2",
+      "step_definition": "限位开关_按下_0.8mm",
+      "reference_link": "c_0_8mm_2",
+      "target_group": "link4",
+      "transform_max_abs_error": 4.517219931443606e-15
+    },
+    {
+      "part": "part_041",
+      "source_name": "热熔螺母-7",
+      "step_definition": "热熔螺母",
+      "reference_link": "c_7",
+      "target_group": "link4",
+      "transform_max_abs_error": 4.517219931443606e-15
+    },
+    {
+      "part": "part_042",
+      "source_name": "热熔螺母-8",
+      "step_definition": "热熔螺母",
+      "reference_link": "c_8",
+      "target_group": "link4",
+      "transform_max_abs_error": 4.517219931443606e-15
+    },
+    {
+      "part": "part_043",
+      "source_name": "限位开关_按下_0.8mm-3",
+      "step_definition": "限位开关_按下_0.8mm",
+      "reference_link": "c_0_8mm_3",
+      "target_group": "link5",
+      "transform_max_abs_error": 4.524158825347513e-15
+    },
+    {
+      "part": "part_044",
+      "source_name": "热熔螺母-9",
+      "step_definition": "热熔螺母",
+      "reference_link": "c_9",
+      "target_group": "link5",
+      "transform_max_abs_error": 4.524158825347513e-15
+    },
+    {
+      "part": "part_045",
+      "source_name": "热熔螺母-10",
+      "step_definition": "热熔螺母",
+      "reference_link": "c_10",
+      "target_group": "link5",
+      "transform_max_abs_error": 4.5102810375396984e-15
+    },
+    {
+      "part": "part_046",
+      "source_name": "底座固定爪-1",
+      "step_definition": "底座固定爪",
+      "reference_link": "c_1_3",
+      "target_group": "base",
+      "transform_max_abs_error": 0.0
+    },
+    {
+      "part": "part_047",
+      "source_name": "底座固定爪-2",
+      "step_definition": "底座固定爪",
+      "reference_link": "c_2_3",
+      "target_group": "base",
+      "transform_max_abs_error": 6.123233995736757e-17
+    },
+    {
+      "part": "part_048",
+      "source_name": "底座固定爪-3",
+      "step_definition": "底座固定爪",
+      "reference_link": "c_3_2",
+      "target_group": "base",
+      "transform_max_abs_error": 0.0
+    },
+    {
+      "part": "part_049",
+      "source_name": "底座固定爪-4",
+      "step_definition": "底座固定爪",
+      "reference_link": "c_4_3",
+      "target_group": "base",
+      "transform_max_abs_error": 3.8347585052928586e-17
+    },
+    {
+      "part": "part_050",
+      "source_name": "手机夹具-1",
+      "step_definition": "手机夹具",
+      "reference_link": "c_1_2",
+      "target_group": "link6",
+      "transform_max_abs_error": 4.551914400963142e-15
+    }
+  ],
+  "mass_sum_error_kg": 0.0,
+  "max_transform_error": 4.551914400963142e-15,
+  "density_warning": "All masses use placeholder density 1000 kg/m3; not validated for dynamics.",
+  "status": "Fresh geometry split and grouped. Website joints and motion checks pending."
+}

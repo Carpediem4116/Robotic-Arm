@@ -1,0 +1,1624 @@
+{
+  "schema": "urdf_mass_props_v2",
+  "source_file": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\3. Simulink\\URDF_OVO_20260919\\ZERO_ARM_OVO_RAW.STEP",
+  "configuration": "default",
+  "coordinate_system": "assembly_default",
+  "units": {
+    "mass": "kg",
+    "length": "m",
+    "inertia": "kg*m^2"
+  },
+  "inertia_convention": "about_com_aligned_global",
+  "base_frame": null,
+  "ref_frames": [],
+  "joints": [],
+  "links": [
+    {
+      "name": "part_001",
+      "mass": 0.07741629777278157,
+      "com": [
+        -1.0862555934787466e-07,
+        0.02776753760214176,
+        0.00036341667924484524
+      ],
+      "inertia": {
+        "ixx": 2.6113532469420046e-05,
+        "ixy": 2.4311780653893947e-09,
+        "ixz": 2.1694681310944724e-10,
+        "iyy": 2.2257948252780395e-05,
+        "iyz": 4.316369782616906e-07,
+        "izz": 2.534772679466957e-05
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "ZDT_X42_L40Motor-1"
+      ],
+      "step_file": "part_001.STEP",
+      "step_exported": true,
+      "target_group": "link1"
+    },
+    {
+      "name": "part_002",
+      "mass": 0.0738232845977612,
+      "com": [
+        -2.5858583191259197e-06,
+        0.07840792084594211,
+        -2.9221295801816052e-06
+      ],
+      "inertia": {
+        "ixx": 2.7265414145538614e-05,
+        "ixy": 7.102625376507778e-09,
+        "ixz": 5.393504540592811e-09,
+        "iyy": 1.6793982580932613e-05,
+        "iyz": 8.06642097957166e-09,
+        "izz": 2.7267181623945106e-05
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "42XG二级减速-2"
+      ],
+      "step_file": "part_002.STEP",
+      "step_exported": true,
+      "target_group": "link1"
+    },
+    {
+      "name": "part_003",
+      "mass": 0.07741629777278161,
+      "com": [
+        -0.0012675376021417577,
+        0.21099989137444072,
+        0.0003634166792422038
+      ],
+      "inertia": {
+        "ixx": 2.22579482527804e-05,
+        "ixy": -2.4311780653707682e-09,
+        "ixz": -4.316369782616645e-07,
+        "iyy": 2.6113532469420314e-05,
+        "iyz": 2.1694681310444137e-10,
+        "izz": 2.5347726794669688e-05
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "ZDT_X42_L40Motor-2"
+      ],
+      "step_file": "part_003.STEP",
+      "step_exported": true,
+      "target_group": "link2"
+    },
+    {
+      "name": "part_004",
+      "mass": 0.050722174314128225,
+      "com": [
+        1.0658141036401503e-17,
+        0.16099999999999998,
+        7.3026282607857855e-06
+      ],
+      "inertia": {
+        "ixx": 7.78826498143343e-06,
+        "ixy": 1.0579128684184976e-21,
+        "ixz": -1.0913936421275139e-22,
+        "iyy": 1.552939988752171e-05,
+        "iyz": 6.212247476942334e-23,
+        "izz": 1.5530513808003718e-05
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "双轴行星减速器36-47-1"
+      ],
+      "step_file": "part_004.STEP",
+      "step_exported": true,
+      "target_group": "link1"
+    },
+    {
+      "name": "part_005",
+      "mass": 0.07741629777278153,
+      "com": [
+        -0.0012675376021417221,
+        0.31099989137444073,
+        0.00036341667924148704
+      ],
+      "inertia": {
+        "ixx": 2.2257948252780416e-05,
+        "ixy": -2.4311780654266476e-09,
+        "ixz": -4.316369782616161e-07,
+        "iyy": 2.6113532469420432e-05,
+        "iyz": 2.1694681310863234e-10,
+        "izz": 2.5347726794669746e-05
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "ZDT_X42_L40Motor-3"
+      ],
+      "step_file": "part_005.STEP",
+      "step_exported": true,
+      "target_group": "link2"
+    },
+    {
+      "name": "part_006",
+      "mass": 0.05072217431412824,
+      "com": [
+        1.0658141036401503e-17,
+        0.36100730262826,
+        -3.926901490204272e-15
+      ],
+      "inertia": {
+        "ixx": 7.788264981433431e-06,
+        "ixy": -1.3715180102735757e-21,
+        "ixz": 2.5920599000527628e-23,
+        "iyy": 1.553051380800372e-05,
+        "iyz": 1.613464169513926e-21,
+        "izz": 1.5529399887521716e-05
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "双轴行星减速器36-47-2"
+      ],
+      "step_file": "part_006.STEP",
+      "step_exported": true,
+      "target_group": "link2"
+    },
+    {
+      "name": "part_007",
+      "mass": 0.03927548590577574,
+      "com": [
+        -0.0004031357165784635,
+        0.32473975621744866,
+        0.048434090435810394
+      ],
+      "inertia": {
+        "ixx": 8.296285181518257e-06,
+        "ixy": 2.8793303608285635e-07,
+        "ixz": 3.532856962088175e-08,
+        "iyy": 8.234476608945945e-06,
+        "iyz": -4.383228875307674e-07,
+        "izz": 7.934184754234984e-06
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "ZDT_X35_L28Motor-1"
+      ],
+      "step_file": "part_007.STEP",
+      "step_exported": true,
+      "target_group": "link3"
+    },
+    {
+      "name": "part_008",
+      "mass": 0.041080377687827976,
+      "com": [
+        0.0027116714485625835,
+        0.17600000000000057,
+        0.047618556635042726
+      ],
+      "inertia": {
+        "ixx": 6.298759823574273e-06,
+        "ixy": 1.9742631005252276e-22,
+        "ixz": 9.46084128444229e-09,
+        "iyy": 9.436774977206055e-06,
+        "iyz": 5.249829256444215e-23,
+        "izz": 9.437836741737165e-06
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "双轴行星减速器36-38-2"
+      ],
+      "step_file": "part_008.STEP",
+      "step_exported": true,
+      "target_group": "link4"
+    },
+    {
+      "name": "part_009",
+      "mass": 0.03927548590577577,
+      "com": [
+        -0.0007602437825519886,
+        0.22319730677233224,
+        0.0480345329247212
+      ],
+      "inertia": {
+        "ixx": 8.234476608945958e-06,
+        "ixy": 4.383228875307599e-07,
+        "ixz": -2.8793303608285265e-07,
+        "iyy": 7.934184754235015e-06,
+        "iyz": 3.5328569620884544e-08,
+        "izz": 8.296285181518465e-06
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "ZDT_X35_L28Motor-2"
+      ],
+      "step_file": "part_009.STEP",
+      "step_exported": true,
+      "target_group": "link4"
+    },
+    {
+      "name": "part_010",
+      "mass": 0.040986088137567024,
+      "com": [
+        -3.024058037294274e-17,
+        0.2895553324011026,
+        0.04762687853851097
+      ],
+      "inertia": {
+        "ixx": 9.262654343006862e-06,
+        "ixy": 2.3507647532553074e-21,
+        "ixz": -3.9664450117478325e-23,
+        "iyy": 6.67117108262217e-06,
+        "iyz": -5.751528049085096e-09,
+        "izz": 9.263210787651505e-06
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "单轴行星减速器35-38-1"
+      ],
+      "step_file": "part_010.STEP",
+      "step_exported": true,
+      "target_group": "link3"
+    },
+    {
+      "name": "part_011",
+      "mass": 0.04098608813756699,
+      "com": [
+        3.8406728247214734e-16,
+        0.1760045186696326,
+        0.13907606480704096
+      ],
+      "inertia": {
+        "ixx": 9.262654343006838e-06,
+        "ixy": 3.1590151085376786e-23,
+        "ixz": 4.834216239966867e-21,
+        "iyy": 9.263210787651493e-06,
+        "iyz": -5.751528049131938e-09,
+        "izz": 6.67117108262217e-06
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "单轴行星减速器35-38-2"
+      ],
+      "step_file": "part_011.STEP",
+      "step_exported": true,
+      "target_group": "link5"
+    },
+    {
+      "name": "part_012",
+      "mass": 0.039275485905775745,
+      "com": [
+        -0.00040313571657765257,
+        0.1768026932276686,
+        0.1038916409906963
+      ],
+      "inertia": {
+        "ixx": 8.296285181518659e-06,
+        "ixy": 3.532856962088152e-08,
+        "ixz": -2.879330360828349e-07,
+        "iyy": 7.934184754235074e-06,
+        "iyz": 4.383228875307832e-07,
+        "izz": 8.234476608945943e-06
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "ZDT_X35_L28Motor-3"
+      ],
+      "step_file": "part_012.STEP",
+      "step_exported": true,
+      "target_group": "link5"
+    },
+    {
+      "name": "part_013",
+      "mass": 0.3947618847785791,
+      "com": [
+        -0.00018873175891271786,
+        0.053079046742443035,
+        0.00014491970528139456
+      ],
+      "inertia": {
+        "ixx": 0.0012204415405302773,
+        "ixy": 5.041602842182524e-06,
+        "ixz": -1.0797116631603939e-08,
+        "iyy": 0.000683238880072433,
+        "iyz": 3.236293274285567e-06,
+        "izz": 0.001220610274671901
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "frame0^ZERO_ARM-1"
+      ],
+      "step_file": "part_013.STEP",
+      "step_exported": true,
+      "target_group": "base"
+    },
+    {
+      "name": "part_014",
+      "mass": 0.006749448523749027,
+      "com": [
+        4.438244405107315e-12,
+        0.12221500243389295,
+        8.65869133491295e-12
+      ],
+      "inertia": {
+        "ixx": 7.888089794017735e-07,
+        "ixy": 1.2920463072553488e-15,
+        "ixz": -1.769018255023619e-14,
+        "iyy": 1.4392624794493532e-06,
+        "iyz": -9.847302616216676e-16,
+        "izz": 7.888089142833598e-07
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "tapered roller bearings gb-2"
+      ],
+      "step_file": "part_014.STEP",
+      "step_exported": true,
+      "target_group": "base"
+    },
+    {
+      "name": "part_015",
+      "mass": 0.050708717181854095,
+      "com": [
+        0.02210148220772767,
+        0.14036732921634695,
+        0.0001173284886823978
+      ],
+      "inertia": {
+        "ixx": 2.472773542533417e-05,
+        "ixy": -1.0998613580638655e-05,
+        "ixz": -1.1703522361997453e-07,
+        "iyy": 3.811086058174854e-05,
+        "iyz": 3.399224670944028e-08,
+        "izz": 3.628778882569739e-05
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "frame1-1"
+      ],
+      "step_file": "part_015.STEP",
+      "step_exported": true,
+      "target_group": "link1"
+    },
+    {
+      "name": "part_016",
+      "mass": 0.008816351423077297,
+      "com": [
+        0.03539305253805166,
+        0.16099999999999998,
+        8.741666172676878e-16
+      ],
+      "inertia": {
+        "ixx": 9.306794547201243e-07,
+        "ixy": -3.567136306982006e-22,
+        "ixz": 2.788613384758742e-22,
+        "iyy": 6.529320812953867e-07,
+        "iyz": -7.946332489678321e-23,
+        "izz": 6.529320812953864e-07
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "轴直径8mm_抱紧式联轴器(客户图）-1"
+      ],
+      "step_file": "part_016.STEP",
+      "step_exported": true,
+      "target_group": "link1"
+    },
+    {
+      "name": "part_017",
+      "mass": 0.006323078114632852,
+      "com": [
+        -0.036000000000000004,
+        0.16099999999999998,
+        -2.6148504173401454e-19
+      ],
+      "inertia": {
+        "ixx": 5.433725247213552e-07,
+        "ixy": 2.2623680706601588e-23,
+        "ixz": 6.697971868507105e-24,
+        "iyy": 4.089572347772268e-07,
+        "iyz": -1.1437407479080853e-23,
+        "izz": 4.0895723477722706e-07
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "同步轮M3-08-1"
+      ],
+      "step_file": "part_017.STEP",
+      "step_exported": true,
+      "target_group": "link1"
+    },
+    {
+      "name": "part_018",
+      "mass": 0.00678253604022036,
+      "com": [
+        -0.036000000000000004,
+        0.21100000000000016,
+        -2.8252421273066803e-15
+      ],
+      "inertia": {
+        "ixx": 5.484839941435163e-07,
+        "ixy": -1.091251533580362e-22,
+        "ixz": -1.583089215273502e-23,
+        "iyy": 4.2012780559307317e-07,
+        "iyz": 4.5267106008930715e-23,
+        "izz": 4.2012780559307306e-07
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "同步轮M3-05-1"
+      ],
+      "step_file": "part_018.STEP",
+      "step_exported": true,
+      "target_group": "link2"
+    },
+    {
+      "name": "part_019",
+      "mass": 0.11636940336932593,
+      "com": [
+        -0.014432676948023283,
+        0.26037636735197084,
+        -0.000316210597496685
+      ],
+      "inertia": {
+        "ixx": 0.0007937559674485438,
+        "ixy": 1.7027678372656864e-06,
+        "ixz": 2.6900498863520507e-07,
+        "iyy": 5.217321933309577e-05,
+        "iyz": 4.6601302174254535e-08,
+        "izz": 0.0007946365677809436
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "frame2-2"
+      ],
+      "step_file": "part_019.STEP",
+      "step_exported": true,
+      "target_group": "link2"
+    },
+    {
+      "name": "part_020",
+      "mass": 0.006782536040220361,
+      "com": [
+        -0.03599999999999998,
+        0.31100000000000017,
+        -3.521046014785898e-15
+      ],
+      "inertia": {
+        "ixx": 5.484839941435166e-07,
+        "ixy": 1.6550671944060013e-22,
+        "ixz": 1.7735146684572113e-23,
+        "iyy": 4.2012780559307306e-07,
+        "iyz": 6.043368637427801e-23,
+        "izz": 4.2012780559307333e-07
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "同步轮M3-05-2"
+      ],
+      "step_file": "part_020.STEP",
+      "step_exported": true,
+      "target_group": "link2"
+    },
+    {
+      "name": "part_021",
+      "mass": 0.006323078114632851,
+      "com": [
+        -0.03600000000000001,
+        0.3610000000000001,
+        -3.9280450231835315e-15
+      ],
+      "inertia": {
+        "ixx": 5.433725247213547e-07,
+        "ixy": 6.207301339600235e-23,
+        "ixz": 1.947775274402381e-24,
+        "iyy": 4.0895723477722653e-07,
+        "iyz": 5.792322380021004e-23,
+        "izz": 4.0895723477722626e-07
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "同步轮M3-08-2"
+      ],
+      "step_file": "part_021.STEP",
+      "step_exported": true,
+      "target_group": "link2"
+    },
+    {
+      "name": "part_022",
+      "mass": 0.008816351423077295,
+      "com": [
+        0.03539305253805171,
+        0.3610000000000001,
+        -3.922328452361189e-15
+      ],
+      "inertia": {
+        "ixx": 9.306794547201233e-07,
+        "ixy": -4.563067683510226e-22,
+        "ixz": 4.116991564740263e-22,
+        "iyy": 6.529320812953868e-07,
+        "iyz": -9.20941157936544e-24,
+        "izz": 6.529320812953858e-07
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "轴直径8mm_抱紧式联轴器(客户图）-2"
+      ],
+      "step_file": "part_022.STEP",
+      "step_exported": true,
+      "target_group": "link3"
+    },
+    {
+      "name": "part_023",
+      "mass": 0.07251651091414835,
+      "com": [
+        0.021477818393700686,
+        0.31508669467527034,
+        0.03806417368071839
+      ],
+      "inertia": {
+        "ixx": 0.00011692534996607623,
+        "ixy": -4.04854723549726e-05,
+        "ixz": 1.5760144102162614e-05,
+        "iyy": 6.151735520611862e-05,
+        "iyz": 2.789139865769729e-05,
+        "izz": 0.00011525128593434011
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "frame3-1"
+      ],
+      "step_file": "part_023.STEP",
+      "step_exported": true,
+      "target_group": "link3"
+    },
+    {
+      "name": "part_024",
+      "mass": 0.008816351423077294,
+      "com": [
+        -2.107615049645083e-17,
+        0.2566069474619489,
+        0.047631397208142516
+      ],
+      "inertia": {
+        "ixx": 6.529320812953869e-07,
+        "ixy": -5.022510676339693e-22,
+        "ixz": -1.6538781333681929e-23,
+        "iyy": 9.306794547201237e-07,
+        "iyz": -2.0225608968286515e-21,
+        "izz": 6.529320812953867e-07
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "轴直径8mm_抱紧式联轴器(客户图）-3"
+      ],
+      "step_file": "part_024.STEP",
+      "step_exported": true,
+      "target_group": "link4"
+    },
+    {
+      "name": "part_025",
+      "mass": 0.05488863511949187,
+      "com": [
+        -0.006606253381146132,
+        0.20799673746284408,
+        0.04780393993259229
+      ],
+      "inertia": {
+        "ixx": 7.729240895501213e-05,
+        "ixy": -4.3167512051541917e-07,
+        "ixz": -1.5989298700765545e-07,
+        "iyy": 2.2263716125721494e-05,
+        "iyz": -1.1298435969326528e-07,
+        "izz": 7.327018965534957e-05
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "frame4-1"
+      ],
+      "step_file": "part_025.STEP",
+      "step_exported": true,
+      "target_group": "link4"
+    },
+    {
+      "name": "part_026",
+      "mass": 0.006782536040220358,
+      "com": [
+        -0.029000000000000036,
+        0.22400000000000062,
+        0.04763139720814275
+      ],
+      "inertia": {
+        "ixx": 5.48483994143516e-07,
+        "ixy": -1.6457590845675438e-22,
+        "ixz": 9.805845024857265e-23,
+        "iyy": 4.20127805593073e-07,
+        "iyz": -6.415099631101281e-24,
+        "izz": 4.201278055930729e-07
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "同步轮M3-05-3"
+      ],
+      "step_file": "part_026.STEP",
+      "step_exported": true,
+      "target_group": "link4"
+    },
+    {
+      "name": "part_027",
+      "mass": 0.006652945343259779,
+      "com": [
+        -0.029000000000000026,
+        0.17600000000000057,
+        0.047631397208143085
+      ],
+      "inertia": {
+        "ixx": 5.474958650791917e-07,
+        "ixy": -5.60476109967567e-23,
+        "ixz": 8.372325055461261e-23,
+        "iyy": 4.172039154928997e-07,
+        "iyz": 3.5060536004829824e-23,
+        "izz": 4.172039154928999e-07
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "同步轮M3-06-1"
+      ],
+      "step_file": "part_027.STEP",
+      "step_exported": true,
+      "target_group": "link4"
+    },
+    {
+      "name": "part_028",
+      "mass": 0.008816351423077299,
+      "com": [
+        0.03339305253805164,
+        0.17600000000000057,
+        0.04763139720814314
+      ],
+      "inertia": {
+        "ixx": 9.30679454720124e-07,
+        "ixy": 3.994830611171932e-22,
+        "ixz": 5.396433399480071e-22,
+        "iyy": 6.529320812953869e-07,
+        "iyz": 3.5241978750382094e-23,
+        "izz": 6.529320812953871e-07
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "轴直径8mm_抱紧式联轴器(客户图）-4"
+      ],
+      "step_file": "part_028.STEP",
+      "step_exported": true,
+      "target_group": "link5"
+    },
+    {
+      "name": "part_029",
+      "mass": 0.06615817264794599,
+      "com": [
+        0.01894706749866043,
+        0.17605133270689002,
+        0.11343048757292204
+      ],
+      "inertia": {
+        "ixx": 0.00011449708456389838,
+        "ixy": -8.052772844438761e-08,
+        "ixz": 4.1221921835569735e-05,
+        "iyy": 0.00012860859809685104,
+        "iyz": 1.4519416695564892e-07,
+        "izz": 4.0444071920426436e-05
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "frame5-1"
+      ],
+      "step_file": "part_029.STEP",
+      "step_exported": true,
+      "target_group": "link5"
+    },
+    {
+      "name": "part_030",
+      "mass": 0.008816351423077295,
+      "com": [
+        -1.105724581367265e-16,
+        0.1760000000000015,
+        0.16952444974619477
+      ],
+      "inertia": {
+        "ixx": 6.529320812953868e-07,
+        "ixy": 8.181191575084653e-23,
+        "ixz": 2.4289299608310964e-22,
+        "iyy": 6.529320812953865e-07,
+        "iyz": 2.2264331457597053e-21,
+        "izz": 9.306794547201234e-07
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "轴直径8mm_抱紧式联轴器(客户图）-5"
+      ],
+      "step_file": "part_030.STEP",
+      "step_exported": true,
+      "target_group": "link6"
+    },
+    {
+      "name": "part_031",
+      "mass": 0.0012203754804672607,
+      "com": [
+        0.03500000000000001,
+        0.123585086446498,
+        -0.00018509782065731812
+      ],
+      "inertia": {
+        "ixx": 5.114066041436879e-08,
+        "ixy": -3.410605131648481e-25,
+        "ixz": -4.206412995699793e-24,
+        "iyy": 4.428199601201766e-08,
+        "iyz": 1.161372789911903e-09,
+        "izz": 1.507171402653132e-08
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "限位开关_按下_0.8mm-1"
+      ],
+      "step_file": "part_031.STEP",
+      "step_exported": true,
+      "target_group": "base"
+    },
+    {
+      "name": "part_032",
+      "mass": 5.16791991515519e-06,
+      "com": [
+        0.0308,
+        0.12109999999999996,
+        -0.004750000000000851
+      ],
+      "inertia": {
+        "ixx": 7.293226980262735e-12,
+        "ixy": -3.3306690738754696e-26,
+        "ixz": 2.2650708507575587e-28,
+        "iyy": 5.369253461849787e-12,
+        "iyz": -5.450646058533507e-28,
+        "izz": 5.369253461849735e-12
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "热熔螺母-1"
+      ],
+      "step_file": "part_032.STEP",
+      "step_exported": true,
+      "target_group": "base"
+    },
+    {
+      "name": "part_033",
+      "mass": 5.167919915155189e-06,
+      "com": [
+        0.0308,
+        0.12110000000000003,
+        0.004749999999999147
+      ],
+      "inertia": {
+        "ixx": 7.293226980262735e-12,
+        "ixy": 2.55351295663786e-26,
+        "ixz": 7.424800065134416e-28,
+        "iyy": 5.369253461849791e-12,
+        "iyz": -4.370905517643893e-28,
+        "izz": 5.3692534618497374e-12
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "热熔螺母-2"
+      ],
+      "step_file": "part_033.STEP",
+      "step_exported": true,
+      "target_group": "base"
+    },
+    {
+      "name": "part_034",
+      "mass": 0.001249463107771644,
+      "com": [
+        0.040299999999999996,
+        0.14202801681498492,
+        -0.012464661006329248
+      ],
+      "inertia": {
+        "ixx": 5.286296906842158e-08,
+        "ixy": 5.4853899200679736e-24,
+        "ixz": 1.1368683772161603e-25,
+        "iyy": 4.4971171633406716e-08,
+        "iyz": -7.83500482136776e-10,
+        "izz": 1.6182649828827884e-08
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "限位开关_按下_长柄-2"
+      ],
+      "step_file": "part_034.STEP",
+      "step_exported": true,
+      "target_group": "link1"
+    },
+    {
+      "name": "part_035",
+      "mass": 5.167919915155201e-06,
+      "com": [
+        0.04449999999999999,
+        0.1394000000000213,
+        -0.017349999999965705
+      ],
+      "inertia": {
+        "ixx": 7.293226980262752e-12,
+        "ixy": -4.6074255521944e-26,
+        "ixz": -2.3314683517128286e-27,
+        "iyy": 5.3692534618497956e-12,
+        "iyz": -3.6883712480244454e-27,
+        "izz": 5.3692534618497706e-12
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "热熔螺母-3"
+      ],
+      "step_file": "part_035.STEP",
+      "step_exported": true,
+      "target_group": "link1"
+    },
+    {
+      "name": "part_036",
+      "mass": 5.167919915155225e-06,
+      "com": [
+        0.04449999999999999,
+        0.13940000000002145,
+        -0.007849999999965706
+      ],
+      "inertia": {
+        "ixx": 7.293226980262805e-12,
+        "ixy": 3.1308289294429415e-26,
+        "ixz": 6.800116025829084e-28,
+        "iyy": 5.369253461849807e-12,
+        "iyz": -6.035080045345897e-27,
+        "izz": 5.369253461849814e-12
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "热熔螺母-4"
+      ],
+      "step_file": "part_036.STEP",
+      "step_exported": true,
+      "target_group": "link1"
+    },
+    {
+      "name": "part_037",
+      "mass": 0.001249463107771643,
+      "com": [
+        -0.017300000000000086,
+        0.27823533899367103,
+        0.0183580168149861
+      ],
+      "inertia": {
+        "ixx": 5.286296906842157e-08,
+        "ixy": 1.1596057447604835e-23,
+        "ixz": -3.694822225952521e-25,
+        "iyy": 1.6182649828827847e-08,
+        "iyz": -7.835004821365784e-10,
+        "izz": 4.497117163340675e-08
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "限位开关_按下_长柄-4"
+      ],
+      "step_file": "part_037.STEP",
+      "step_exported": true,
+      "target_group": "link2"
+    },
+    {
+      "name": "part_038",
+      "mass": 5.167919915155213e-06,
+      "com": [
+        -0.021500000000000005,
+        0.2733500000000009,
+        0.015729999999996993
+      ],
+      "inertia": {
+        "ixx": 7.293226980262821e-12,
+        "ixy": 1.5476508963274682e-25,
+        "ixz": -7.762887554996212e-28,
+        "iyy": 5.369253461849805e-12,
+        "iyz": 4.8971963370760333e-26,
+        "izz": 5.369253461849823e-12
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "热熔螺母-5"
+      ],
+      "step_file": "part_038.STEP",
+      "step_exported": true,
+      "target_group": "link2"
+    },
+    {
+      "name": "part_039",
+      "mass": 5.16791991515523e-06,
+      "com": [
+        -0.021500000000000005,
+        0.2828500000000009,
+        0.015729999999996927
+      ],
+      "inertia": {
+        "ixx": 7.293226980262853e-12,
+        "ixy": -1.0297318553398327e-26,
+        "ixz": -1.9984014443252817e-27,
+        "iyy": 5.369253461849802e-12,
+        "iyz": 4.486835190589284e-27,
+        "izz": 5.3692534618498594e-12
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "热熔螺母-6"
+      ],
+      "step_file": "part_039.STEP",
+      "step_exported": true,
+      "target_group": "link2"
+    },
+    {
+      "name": "part_040",
+      "mass": 0.0012203754804672603,
+      "com": [
+        0.00018509782065638923,
+        0.25748508644649837,
+        0.028281397208142506
+      ],
+      "inertia": {
+        "ixx": 1.5071714026531407e-08,
+        "ixy": -1.1613727899121035e-09,
+        "ixz": 2.1600499167107045e-24,
+        "iyy": 4.4281996012017655e-08,
+        "iyz": 2.233946361229755e-23,
+        "izz": 5.114066041436885e-08
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "限位开关_按下_0.8mm-2"
+      ],
+      "step_file": "part_040.STEP",
+      "step_exported": true,
+      "target_group": "link4"
+    },
+    {
+      "name": "part_041",
+      "mass": 5.167919915155194e-06,
+      "com": [
+        -0.004750000000000057,
+        0.25500000000000045,
+        0.032481397208142526
+      ],
+      "inertia": {
+        "ixx": 5.36925346184969e-12,
+        "ixy": 3.6790290062767714e-27,
+        "ixz": 1.2212453270876734e-27,
+        "iyy": 5.3692534618497496e-12,
+        "iyz": -5.817568649035824e-26,
+        "izz": 7.293226980262729e-12
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "热熔螺母-7"
+      ],
+      "step_file": "part_041.STEP",
+      "step_exported": true,
+      "target_group": "link4"
+    },
+    {
+      "name": "part_042",
+      "mass": 5.167919915155205e-06,
+      "com": [
+        0.004749999999996519,
+        0.2550000000000081,
+        0.032481397208142526
+      ],
+      "inertia": {
+        "ixx": 5.3692534618497835e-12,
+        "ixy": -9.32889403809736e-27,
+        "ixz": -1.332267629550187e-27,
+        "iyy": 5.369253461849801e-12,
+        "iyz": -9.214851104388805e-27,
+        "izz": 7.293226980262774e-12
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "热熔螺母-8"
+      ],
+      "step_file": "part_042.STEP",
+      "step_exported": true,
+      "target_group": "link4"
+    },
+    {
+      "name": "part_043",
+      "mass": 0.0012203754804672603,
+      "com": [
+        0.036514913553501956,
+        0.1715649021793443,
+        0.06843139720814315
+      ],
+      "inertia": {
+        "ixx": 4.4281996012017615e-08,
+        "ixy": -1.161372789912105e-09,
+        "ixz": 2.1543655748246237e-23,
+        "iyy": 1.5071714026531304e-08,
+        "iyz": 2.630713424878195e-22,
+        "izz": 5.114066041436876e-08
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "限位开关_按下_0.8mm-3"
+      ],
+      "step_file": "part_043.STEP",
+      "step_exported": true,
+      "target_group": "link5"
+    },
+    {
+      "name": "part_044",
+      "mass": 5.167919915155211e-06,
+      "com": [
+        0.03899999999999993,
+        0.17650000000000082,
+        0.07263139720814311
+      ],
+      "inertia": {
+        "ixx": 5.369253461849721e-12,
+        "ixy": -3.2004227553658027e-27,
+        "ixz": -2.4424906541753442e-27,
+        "iyy": 5.369253461849724e-12,
+        "iyz": -8.659739592076208e-27,
+        "izz": 7.293226980262789e-12
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "热熔螺母-9"
+      ],
+      "step_file": "part_044.STEP",
+      "step_exported": true,
+      "target_group": "link5"
+    },
+    {
+      "name": "part_045",
+      "mass": 5.16791991515521e-06,
+      "com": [
+        0.03899999999999994,
+        0.16700000000000081,
+        0.0726313972081432
+      ],
+      "inertia": {
+        "ixx": 5.369253461849869e-12,
+        "ixy": -2.940972232158246e-27,
+        "ixz": -8.104628079763642e-27,
+        "iyy": 5.369253461849872e-12,
+        "iyz": -6.328271240363392e-27,
+        "izz": 7.29322698026279e-12
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "热熔螺母-10"
+      ],
+      "step_file": "part_045.STEP",
+      "step_exported": true,
+      "target_group": "link5"
+    },
+    {
+      "name": "part_046",
+      "mass": 0.04914621167445559,
+      "com": [
+        0.07206524655819452,
+        -0.003893824441989451,
+        -0.07207084843409381
+      ],
+      "inertia": {
+        "ixx": 2.092945033547181e-05,
+        "ixy": 2.7547075906498544e-07,
+        "ixz": 1.0933801230130583e-05,
+        "iyy": 3.925832896002453e-05,
+        "iyz": -2.726607375157159e-07,
+        "izz": 2.093847622075948e-05
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "底座固定爪-1"
+      ],
+      "step_file": "part_046.STEP",
+      "step_exported": true,
+      "target_group": "base"
+    },
+    {
+      "name": "part_047",
+      "mass": 0.049146211674455556,
+      "com": [
+        0.07207084843409364,
+        -0.0038938244419894495,
+        0.07206524655819482
+      ],
+      "inertia": {
+        "ixx": 2.0938476220759243e-05,
+        "ixy": 2.726607375157159e-07,
+        "ixz": -1.0933801230130135e-05,
+        "iyy": 3.9258328960023524e-05,
+        "iyz": 2.754707590649873e-07,
+        "izz": 2.0929450335471004e-05
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "底座固定爪-2"
+      ],
+      "step_file": "part_047.STEP",
+      "step_exported": true,
+      "target_group": "base"
+    },
+    {
+      "name": "part_048",
+      "mass": 0.0491462116744556,
+      "com": [
+        -0.07206524655819506,
+        -0.003893824441989451,
+        0.07207084843409331
+      ],
+      "inertia": {
+        "ixx": 2.092945033547139e-05,
+        "ixy": -2.75470759064978e-07,
+        "ixz": 1.0933801230130374e-05,
+        "iyy": 3.925832896002382e-05,
+        "iyz": 2.7266073751570657e-07,
+        "izz": 2.093847622075915e-05
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "底座固定爪-3"
+      ],
+      "step_file": "part_048.STEP",
+      "step_exported": true,
+      "target_group": "base"
+    },
+    {
+      "name": "part_049",
+      "mass": 0.04914621167445559,
+      "com": [
+        -0.07207084843409303,
+        -0.003893824441989451,
+        -0.0720652465581953
+      ],
+      "inertia": {
+        "ixx": 2.0938476220759423e-05,
+        "ixy": -2.7266073751571403e-07,
+        "ixz": -1.0933801230130791e-05,
+        "iyy": 3.925832896002447e-05,
+        "iyz": -2.754707590649817e-07,
+        "izz": 2.092945033547142e-05
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "底座固定爪-4"
+      ],
+      "step_file": "part_049.STEP",
+      "step_exported": true,
+      "target_group": "base"
+    },
+    {
+      "name": "part_050",
+      "mass": 0.007507293305612149,
+      "com": [
+        1.0343902356089802e-12,
+        0.17599999999671118,
+        0.19449998337322916
+      ],
+      "inertia": {
+        "ixx": 2.1657205492713955e-06,
+        "ixy": 3.205783220920725e-16,
+        "ixz": -3.4020149190470366e-17,
+        "iyy": 2.1657205483525244e-06,
+        "iyz": 1.0819317748619541e-16,
+        "izz": 5.039536745506118e-07
+      },
+      "mass_method": "fresh_step_volume_density_placeholder",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 1,
+      "components": [
+        "手机夹具-1"
+      ],
+      "step_file": "part_050.STEP",
+      "step_exported": true,
+      "target_group": "link6"
+    }
+  ],
+  "provenance": {
+    "geometry": "fresh SolidWorks STEP AP214 export 2026-09-19",
+    "source_sha256": "fccb138908a3b49ae7797f678ec40252ff705469c246add6917512d8d18b7b7f",
+    "identity_reference": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\3. Simulink\\URDF\\clean\\ZERO_ARM\\graph.json",
+    "grouping_reference": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\3. Simulink\\URDF\\clean\\ZERO_ARM\\ZERO_ARM.joints.yaml",
+    "limitation": "Density 1000 kg/m3 is a placeholder. Joint axes are not included."
+  }
+}

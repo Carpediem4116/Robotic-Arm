@@ -1,0 +1,284 @@
+{
+  "schema": "urdf_mass_props_v2",
+  "source_file": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\3. Simulink\\URDF_OVO_20260919\\ZERO_ARM_OVO_RAW.STEP",
+  "configuration": "default",
+  "coordinate_system": "assembly_default",
+  "units": {
+    "mass": "kg",
+    "length": "m",
+    "inertia": "kg*m^2"
+  },
+  "inertia_convention": "about_com_aligned_global",
+  "base_frame": null,
+  "ref_frames": [],
+  "joints": [],
+  "links": [
+    {
+      "name": "base",
+      "mass": 0.599326891320448,
+      "com": [
+        -5.251327715920732e-05,
+        0.035314740097646395,
+        9.50781418959313e-05
+      ],
+      "inertia": {
+        "ixx": 0.0028133852762344735,
+        "ixy": 2.567503572879743e-06,
+        "ixz": 4.913729911620781e-09,
+        "iyy": 0.002885322193412279,
+        "iyz": 2.241119687704051e-06,
+        "izz": 0.0028150319631658504
+      },
+      "mass_method": "fresh_step_components_parallel_axis_sum",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 9,
+      "components": [
+        "frame0^ZERO_ARM-1",
+        "tapered roller bearings gb-2",
+        "限位开关_按下_0.8mm-1",
+        "热熔螺母-1",
+        "热熔螺母-2",
+        "底座固定爪-1",
+        "底座固定爪-2",
+        "底座固定爪-3",
+        "底座固定爪-4"
+      ],
+      "step_file": "base.STEP",
+      "step_exported": true
+    },
+    {
+      "name": "link1",
+      "mass": 0.2690697023518372,
+      "com": [
+        0.0046670382386118665,
+        0.09602885420101692,
+        6.888278079548505e-05
+      ],
+      "inertia": {
+        "ixx": 0.0008516487826580488,
+        "ixy": -6.850498889532594e-05,
+        "ixz": 4.770163049136456e-07,
+        "iyy": 0.00013420238617519684,
+        "iyz": 2.8237849295718555e-06,
+        "izz": 0.0009097302242621418
+      },
+      "mass_method": "fresh_step_components_parallel_axis_sum",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 9,
+      "components": [
+        "ZDT_X42_L40Motor-1",
+        "42XG二级减速-2",
+        "双轴行星减速器36-47-1",
+        "frame1-1",
+        "轴直径8mm_抱紧式联轴器(客户图）-1",
+        "同步轮M3-08-1",
+        "限位开关_按下_长柄-2",
+        "热熔螺母-3",
+        "热熔螺母-4"
+      ],
+      "step_file": "link1.STEP",
+      "step_exported": true
+    },
+    {
+      "name": "link2",
+      "mass": 0.3430721223716928,
+      "com": [
+        -0.0076181925352323465,
+        0.2774805542756036,
+        0.0001240898163043805
+      ],
+      "inertia": {
+        "ixx": 0.0017469628861850085,
+        "ixy": -1.9283488596223168e-05,
+        "ixz": -9.7803158048513e-07,
+        "iyy": 0.00015237835862664704,
+        "iyz": 3.267974014623325e-07,
+        "izz": 0.001791646410670001
+      },
+      "mass_method": "fresh_step_components_parallel_axis_sum",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 10,
+      "components": [
+        "ZDT_X42_L40Motor-2",
+        "ZDT_X42_L40Motor-3",
+        "双轴行星减速器36-47-2",
+        "同步轮M3-05-1",
+        "frame2-2",
+        "同步轮M3-05-2",
+        "同步轮M3-08-2",
+        "限位开关_按下_长柄-4",
+        "热熔螺母-5",
+        "热熔螺母-6"
+      ],
+      "step_file": "link2.STEP",
+      "step_exported": true
+    },
+    {
+      "name": "link3",
+      "mass": 0.16159443638056842,
+      "com": [
+        0.01147131504917397,
+        0.31346217001318555,
+        0.04093329629459054
+      ],
+      "inertia": {
+        "ixx": 0.00020336531424332575,
+        "ixy": -5.738275859430774e-05,
+        "ixz": 3.3155610760828106e-05,
+        "iyy": 0.0001197286277391808,
+        "iyz": 4.817722813206715e-05,
+        "izz": 0.00020487444029078865
+      },
+      "mass_method": "fresh_step_components_parallel_axis_sum",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 4,
+      "components": [
+        "ZDT_X35_L28Motor-1",
+        "单轴行星减速器35-38-1",
+        "轴直径8mm_抱紧式联轴器(客户图）-2",
+        "frame3-1"
+      ],
+      "step_file": "link3.STEP",
+      "step_exported": true
+    },
+    {
+      "name": "link4",
+      "mass": 0.15872704283995062,
+      "com": [
+        -0.004224067602608399,
+        0.20590312273436503,
+        0.04763773284363552
+      ],
+      "inertia": {
+        "ixx": 0.00017688638388462947,
+        "ixy": 2.3906529938391148e-06,
+        "ixz": -3.622090964091626e-07,
+        "iyy": 5.3101946571239216e-05,
+        "iyz": 8.386758645413078e-07,
+        "izz": 0.0001865627898824553
+      },
+      "mass_method": "fresh_step_components_parallel_axis_sum",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 9,
+      "components": [
+        "双轴行星减速器36-38-2",
+        "ZDT_X35_L28Motor-2",
+        "轴直径8mm_抱紧式联轴器(客户图）-3",
+        "frame4-1",
+        "同步轮M3-05-3",
+        "同步轮M3-06-1",
+        "限位开关_按下_0.8mm-2",
+        "热熔螺母-7",
+        "热熔螺母-8"
+      ],
+      "step_file": "link4.STEP",
+      "step_exported": true
+    },
+    {
+      "name": "link5",
+      "mass": 0.1564668094346636,
+      "com": [
+        0.010079069845434871,
+        0.17618950367417063,
+        0.11369267526080673
+      ],
+      "inertia": {
+        "ixx": 0.0002042534963647458,
+        "ixy": 4.0020750090098603e-07,
+        "ixz": 6.258970227172667e-05,
+        "iyy": 0.00023698769470648038,
+        "iyz": 6.36164221689361e-07,
+        "izz": 7.543356702559679e-05
+      },
+      "mass_method": "fresh_step_components_parallel_axis_sum",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 7,
+      "components": [
+        "单轴行星减速器35-38-2",
+        "ZDT_X35_L28Motor-3",
+        "轴直径8mm_抱紧式联轴器(客户图）-4",
+        "frame5-1",
+        "限位开关_按下_0.8mm-3",
+        "热熔螺母-9",
+        "热熔螺母-10"
+      ],
+      "step_file": "link5.STEP",
+      "step_exported": true
+    },
+    {
+      "name": "link6",
+      "mass": 0.016323644728689444,
+      "com": [
+        4.756594605298422e-13,
+        0.17599999999848825,
+        0.18101077277752065
+      ],
+      "inertia": {
+        "ixx": 5.347861493190158e-06,
+        "ixy": 3.2057840391778965e-16,
+        "ixz": -1.387811759154431e-16,
+        "iyy": 5.3478614922712874e-06,
+        "iyz": 4.4139699137821774e-16,
+        "izz": 1.4346331292707352e-06
+      },
+      "mass_method": "fresh_step_components_parallel_axis_sum",
+      "density_kg_m3": 1000,
+      "density_warning": true,
+      "color_rgb": [
+        0.72,
+        0.72,
+        0.75
+      ],
+      "component_count": 2,
+      "components": [
+        "轴直径8mm_抱紧式联轴器(客户图）-5",
+        "手机夹具-1"
+      ],
+      "step_file": "link6.STEP",
+      "step_exported": true
+    }
+  ],
+  "provenance": {
+    "geometry": "fresh SolidWorks STEP AP214 export 2026-09-19",
+    "source_sha256": "fccb138908a3b49ae7797f678ec40252ff705469c246add6917512d8d18b7b7f",
+    "identity_reference": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\3. Simulink\\URDF\\clean\\ZERO_ARM\\graph.json",
+    "grouping_reference": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\3. Simulink\\URDF\\clean\\ZERO_ARM\\ZERO_ARM.joints.yaml",
+    "limitation": "Density 1000 kg/m3 is a placeholder. Joint axes are not included."
+  }
+}

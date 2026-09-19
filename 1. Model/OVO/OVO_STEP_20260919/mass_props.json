@@ -1,0 +1,248 @@
+{
+  "schema": "urdf_mass_props_v2",
+  "source_file": "D:\\OBSIDIAN\\AARON\\02 ASSETS\\PROJECTS\\ROBOTIC_ARM\\ROBOTIC ARM\\1. MODEL\\ZERO_ARM_OVO.SLDASM",
+  "configuration": "默认",
+  "coordinate_system": "assembly_default",
+  "units": { "mass": "kg", "length": "m", "inertia": "kg*m^2" },
+  "inertia_convention": "about_com_aligned_global",
+  "base_frame": null,
+  "ref_frames": [],
+  "joints": [],
+  "links": [
+    {
+      "name": "base",
+      "mass": 3.947619144015E-01,
+      "com": [-1.887316693853E-04, 5.307905117361E-02, 1.449196285481E-04],
+      "inertia": {
+        "ixx": 1.220441652167E-03, "ixy": -5.041600982163E-06, "ixz": 1.079710289099E-08,
+        "iyy": 6.832388864536E-04, "iyz": -3.236294918827E-06, "izz": 1.220610385526E-03
+      },
+      "mass_method": "selected_items",
+      "density_kg_m3": 1.000000000000E+03,
+      "density_warning": true,
+      "color_rgb": [8.235294117647E-01, 8.235294117647E-01, 8.235294117647E-01],
+      "component_count": 1,
+      "body_count": 1,
+      "components": ["frame0^ZERO_ARM_OVO-1"],
+      "step_file": "base.STEP",
+      "step_exported": true
+    },
+    {
+      "name": "link1",
+      "mass": 7.741600586906E-02,
+      "com": [-2.866386487435E-07, 2.776761600270E-02, 3.634020077564E-04],
+      "inertia": {
+        "ixx": 2.611336490653E-05, "ixy": -2.154157006788E-09, "ixz": -1.909196080701E-10,
+        "iyy": 2.225782173826E-05, "iyz": -4.316021964511E-07, "izz": 2.534751198414E-05
+      },
+      "mass_method": "selected_items",
+      "density_kg_m3": 1.000000000000E+03,
+      "density_warning": true,
+      "color_rgb": null,
+      "component_count": 1,
+      "body_count": 24,
+      "components": ["ZDT_X42_L40Motor-1"],
+      "step_file": "link1.STEP",
+      "step_exported": true
+    },
+    {
+      "name": "link2",
+      "mass": 7.382197505854E-02,
+      "com": [-2.602619160529E-06, 7.840788524080E-02, -2.915758720511E-06],
+      "inertia": {
+        "ixx": 2.726683735191E-05, "ixy": -7.166915652866E-09, "ixz": 6.461104754951E-10,
+        "iyy": 1.679331307701E-05, "iyz": -8.045341203311E-09, "izz": 2.726669104408E-05
+      },
+      "mass_method": "selected_items",
+      "density_kg_m3": 1.000000000000E+03,
+      "density_warning": true,
+      "color_rgb": null,
+      "component_count": 1,
+      "body_count": 3,
+      "components": ["42XG二级减速-2"],
+      "step_file": "link2.STEP",
+      "step_exported": true
+    },
+    {
+      "name": "link3",
+      "mass": 7.741600586906E-02,
+      "com": [-1.267616002700E-03, 2.109997133614E-01, 3.634020077538E-04],
+      "inertia": {
+        "ixx": 2.225782173826E-05, "ixy": 2.154157006764E-09, "ixz": 4.316021964510E-07,
+        "iyy": 2.611336490653E-05, "iyz": -1.909196080713E-10, "izz": 2.534751198414E-05
+      },
+      "mass_method": "selected_items",
+      "density_kg_m3": 1.000000000000E+03,
+      "density_warning": true,
+      "color_rgb": null,
+      "component_count": 1,
+      "body_count": 24,
+      "components": ["ZDT_X42_L40Motor-2"],
+      "step_file": "link3.STEP",
+      "step_exported": true
+    },
+    {
+      "name": "link4",
+      "mass": 5.072217431413E-02,
+      "com": [4.163336342344E-17, 1.610000000000E-01, 7.302628263040E-06],
+      "inertia": {
+        "ixx": 7.788264981433E-06, "ixy": 9.693522803356E-24, "ixz": 5.009345618686E-22,
+        "iyy": 1.552939988752E-05, "iyz": -3.522291336719E-24, "izz": 1.553051380800E-05
+      },
+      "mass_method": "selected_items",
+      "density_kg_m3": 1.000000000000E+03,
+      "density_warning": true,
+      "color_rgb": [1.000000000000E+00, 1.000000000000E+00, 1.000000000000E+00],
+      "component_count": 1,
+      "body_count": 1,
+      "components": ["双轴行星减速器36-47-1"],
+      "step_file": "link4.STEP",
+      "step_exported": true
+    },
+    {
+      "name": "link5",
+      "mass": 7.741600586906E-02,
+      "com": [-1.267616002700E-03, 3.109997133614E-01, 3.634020077576E-04],
+      "inertia": {
+        "ixx": 2.225782173826E-05, "ixy": 2.154157006774E-09, "ixz": 4.316021964510E-07,
+        "iyy": 2.611336490653E-05, "iyz": -1.909196080697E-10, "izz": 2.534751198414E-05
+      },
+      "mass_method": "selected_items",
+      "density_kg_m3": 1.000000000000E+03,
+      "density_warning": true,
+      "color_rgb": null,
+      "component_count": 1,
+      "body_count": 24,
+      "components": ["ZDT_X42_L40Motor-3"],
+      "step_file": "link5.STEP",
+      "step_exported": true
+    },
+    {
+      "name": "link6",
+      "mass": 5.072217431413E-02,
+      "com": [3.816391647149E-17, 3.610073026283E-01, 5.811357276679E-16],
+      "inertia": {
+        "ixx": 7.788264981433E-06, "ixy": 5.006876566781E-22, "ixz": -7.326885861144E-24,
+        "iyy": 1.553051380800E-05, "iyz": 2.025073623866E-22, "izz": 1.552939988752E-05
+      },
+      "mass_method": "selected_items",
+      "density_kg_m3": 1.000000000000E+03,
+      "density_warning": true,
+      "color_rgb": [1.000000000000E+00, 1.000000000000E+00, 1.000000000000E+00],
+      "component_count": 1,
+      "body_count": 1,
+      "components": ["双轴行星减速器36-47-2"],
+      "step_file": "link6.STEP",
+      "step_exported": true
+    },
+    {
+      "name": "link7",
+      "mass": 4.134918248032E-02,
+      "com": [-2.369255263340E-04, 3.257023311130E-01, 4.835342625748E-02],
+      "inertia": {
+        "ixx": 9.347444563396E-06, "ixy": -1.684087381046E-07, "ixz": -4.097942932824E-08,
+        "iyy": 8.833837540103E-06, "iyz": 3.877450714268E-07, "izz": 8.976468281867E-06
+      },
+      "mass_method": "selected_items",
+      "density_kg_m3": 1.000000000000E+03,
+      "density_warning": true,
+      "color_rgb": null,
+      "component_count": 1,
+      "body_count": 24,
+      "components": ["ZDT_X35_L28Motor-1"],
+      "step_file": "link7.STEP",
+      "step_exported": true
+    },
+    {
+      "name": "link8",
+      "mass": 4.108037768783E-02,
+      "com": [2.711671448563E-03, 1.760000000000E-01, 4.761855663505E-02],
+      "inertia": {
+        "ixx": 6.298759823574E-06, "ixy": 1.597829961610E-21, "ixz": -9.460841284442E-09,
+        "iyy": 9.436774977206E-06, "iyz": -1.650690914137E-23, "izz": 9.437836741737E-06
+      },
+      "mass_method": "selected_items",
+      "density_kg_m3": 1.000000000000E+03,
+      "density_warning": true,
+      "color_rgb": [1.000000000000E+00, 1.000000000000E+00, 1.000000000000E+00],
+      "component_count": 1,
+      "body_count": 1,
+      "components": ["双轴行星减速器36-38-2"],
+      "step_file": "link8.STEP",
+      "step_exported": true
+    },
+    {
+      "name": "link9",
+      "mass": 4.134918248032E-02,
+      "com": [2.023311129866E-04, 2.232779709507E-01, 4.786832273448E-02],
+      "inertia": {
+        "ixx": 8.833837540103E-06, "ixy": -3.877450714268E-07, "ixz": 1.684087381046E-07,
+        "iyy": 8.976468281867E-06, "iyz": -4.097942932824E-08, "izz": 9.347444563396E-06
+      },
+      "mass_method": "selected_items",
+      "density_kg_m3": 1.000000000000E+03,
+      "density_warning": true,
+      "color_rgb": null,
+      "component_count": 1,
+      "body_count": 24,
+      "components": ["ZDT_X35_L28Motor-2"],
+      "step_file": "link9.STEP",
+      "step_exported": true
+    },
+    {
+      "name": "link10",
+      "mass": 4.098608813757E-02,
+      "com": [-5.756459239325E-17, 2.895553324011E-01, 4.762687853851E-02],
+      "inertia": {
+        "ixx": 9.262654343007E-06, "ixy": -2.089839184299E-21, "ixz": -1.152744610139E-22,
+        "iyy": 6.671171082622E-06, "iyz": 5.751528049085E-09, "izz": 9.263210787651E-06
+      },
+      "mass_method": "selected_items",
+      "density_kg_m3": 1.000000000000E+03,
+      "density_warning": true,
+      "color_rgb": [1.000000000000E+00, 1.000000000000E+00, 1.000000000000E+00],
+      "component_count": 1,
+      "body_count": 1,
+      "components": ["单轴行星减速器35-38-1"],
+      "step_file": "link10.STEP",
+      "step_exported": true
+    },
+    {
+      "name": "link11",
+      "mass": 4.098608813757E-02,
+      "com": [-9.387999824188E-17, 1.760045186696E-01, 1.390760648070E-01],
+      "inertia": {
+        "ixx": 9.262654343007E-06, "ixy": -3.637168694539E-22, "ixz": -4.250183810065E-21,
+        "iyy": 9.263210787651E-06, "iyz": 5.751528049121E-09, "izz": 6.671171082622E-06
+      },
+      "mass_method": "selected_items",
+      "density_kg_m3": 1.000000000000E+03,
+      "density_warning": true,
+      "color_rgb": [1.000000000000E+00, 1.000000000000E+00, 1.000000000000E+00],
+      "component_count": 1,
+      "body_count": 1,
+      "components": ["单轴行星减速器35-38-2"],
+      "step_file": "link11.STEP",
+      "step_exported": true
+    },
+    {
+      "name": "link12",
+      "mass": 4.134918248032E-02,
+      "com": [-2.369255263332E-04, 1.767220290493E-01, 1.029290660952E-01],
+      "inertia": {
+        "ixx": 9.347444563396E-06, "ixy": -4.097942932824E-08, "ixz": 1.684087381046E-07,
+        "iyy": 8.976468281867E-06, "iyz": -3.877450714268E-07, "izz": 8.833837540103E-06
+      },
+      "mass_method": "selected_items",
+      "density_kg_m3": 1.000000000000E+03,
+      "density_warning": true,
+      "color_rgb": null,
+      "component_count": 1,
+      "body_count": 24,
+      "components": ["ZDT_X35_L28Motor-3"],
+      "step_file": "link12.STEP",
+      "step_exported": true
+    }
+  ]
+}
+

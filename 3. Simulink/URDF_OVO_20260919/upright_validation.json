@@ -1,0 +1,80 @@
+{
+  "links": 7,
+  "revolute_joints": 6,
+  "root": "base",
+  "mesh_checks": [
+    {
+      "link": "base",
+      "triangles": 100948,
+      "zero_pose_reconstruction_error_m": 0.0
+    },
+    {
+      "link": "link1",
+      "triangles": 134538,
+      "zero_pose_reconstruction_error_m": 1.3877787807814457e-17
+    },
+    {
+      "link": "link2",
+      "triangles": 156329,
+      "zero_pose_reconstruction_error_m": 6.938893903907228e-18
+    },
+    {
+      "link": "link3",
+      "triangles": 75382,
+      "zero_pose_reconstruction_error_m": 6.938893903907228e-18
+    },
+    {
+      "link": "link4",
+      "triangles": 82602,
+      "zero_pose_reconstruction_error_m": 2.207577939454425e-28
+    },
+    {
+      "link": "link5",
+      "triangles": 77380,
+      "zero_pose_reconstruction_error_m": 2.7755575615628914e-17
+    },
+    {
+      "link": "link6",
+      "triangles": 7800,
+      "zero_pose_reconstruction_error_m": 2.0503604262342064e-27
+    }
+  ],
+  "world_bounds_m": [
+    [
+      -0.11877760000000001,
+      -0.2235314,
+      -0.013000000000000001
+    ],
+    [
+      0.11877760000000001,
+      0.11877760000000001,
+      0.3835
+    ]
+  ],
+  "mass_placeholder_kg": 1.7045806494278501,
+  "reference_fk_max_error": 7.805561752505241e-13,
+  "reference_poses_checked": 24,
+  "zip_crc": "passed",
+  "mesh_references": "passed",
+  "inertia_positive_and_triangle_inequality": "passed",
+  "browser_reimport": "passed: 7 links, 6 movable joints, upright connected zero pose",
+  "hardware": "not_run",
+  "joint_reference": "D:\\Obsidian\\Aaron\\02 Assets\\Projects\\Robotic_arm\\Robotic Arm\\3. Simulink\\URDF\\exported\\zero_arm_description\\urdf\\zero_arm_description.urdf",
+  "browser_joint_check_angle_rad": 0.188495559215388,
+  "browser_joint_checks": {
+    "joint_1": "slider and visible downstream movement checked at +10.8 degrees; no separation observed",
+    "joint_2": "slider and visible downstream movement checked at +10.8 degrees; no separation observed",
+    "joint_3": "slider and visible downstream movement checked at +10.8 degrees; no separation observed",
+    "joint_4": "slider and visible downstream movement checked at +10.8 degrees; no separation observed",
+    "joint_5": "slider and visible downstream movement checked at +10.8 degrees; no separation observed",
+    "joint_6": "slider responds at +10.8 degrees; near-axisymmetric end geometry makes rotation direction visually inconclusive"
+  },
+  "browser_return_to_zero": "all six sliders within 4e-16 rad",
+  "browser_export": "ZERO_ARM_urdf_online_verified.zip",
+  "browser_export_mesh_bytes_identical": true,
+  "browser_export_urdf_semantically_equal": true,
+  "browser_joint_6_additional_check": "Also tested +45 degrees with joint-axis and COM overlays off, then returned to zero; geometric rotation direction remains visually inconclusive.",
+  "matlab_import": "user-provided screenshot confirms new URDF import and upright connected zero pose; text reports 6 bodies",
+  "matlab_joint_details_and_motion": "full per-body listing and motion results not supplied",
+  "simscape_simulink": "not_run"
+}

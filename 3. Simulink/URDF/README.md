@@ -16,16 +16,16 @@
 - 原 CAD frame3 惯量有三角不等式告警；合并固定零件后的 7 个最终惯量矩阵均为正定并满足主惯量三角不等式。真实质量、密度及惯量精度未标定。
 - `validation.json` 保存具体检查值，`verify_export.py` 可复核；`build_export.py` 重建独立导出包。
 
-## MATLAB 下一步
+## MATLAB 导入与当前进度
 
-在 MATLAB 将当前目录设为此 `URDF_export_20260917` 目录，然后执行：
+在 MATLAB 将当前目录设为本项目的 `3. Simulink/URDF/` 目录，然后执行：
 
 ```matlab
 pkg = fullfile(pwd, 'exported', 'zero_arm_description');
 robot = importrobot(fullfile(pkg, 'urdf', 'zero_arm_description.urdf'), ...
     'MeshPath', fullfile(pkg, 'meshes'));
-show(robot);
+show(robot, homeConfiguration(robot), 'Frames', 'off');
 showdetails(robot);
 ```
 
-本次尚未运行 MATLAB importrobot/smimport、Simulink 或实物。六个关节暂用 ±π rad 占位限位；正方向、编码器零位及硬件实际限位需后续标定，不能直接用来驱动实物。
+截至 2026-09-18，用户已成功执行 MATLAB `importrobot` 并通过截图确认零位外观；输出显示 6 bodies。完整关节明细与第 1 关节 30° 运动检查尚待用户反馈。下一步先确认六关节父子关系和运动，再进行 `smimport`。尚未执行 Simulink 仿真或实物验证。六个关节暂用 ±π rad 占位限位；正方向、编码器零位及硬件实际限位需后续标定，不能直接用来驱动实物。
